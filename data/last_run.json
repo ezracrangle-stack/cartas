@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-15T23:10:40+00:00",
+ "last_run": "2026-11-15T23:14:17+00:00",
  "managers": {
   "cobas": {
    "status": "ok",
@@ -119,10 +119,6 @@
    "new": 0
   },
   "gamma": {
-   "status": "manual",
-   "new": 0
-  },
-  "argos": {
    "status": "manual",
    "new": 0
   }
