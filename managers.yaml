@@ -380,3 +380,115 @@ managers:
     letters_page: https://panzacapital.com/
     latest_url: https://panzacapital.com/wp-content/uploads/panza-carta-trimestral.pdf
     access: latest
+
+  - id: azagala
+    name: Daniel Tello
+    firm: Azagala Capital
+    style: "Value en pocas empresas europeas, con un fondo pequeño y concentrado."
+    why: "Daniel explica con detalle cada empresa que compra y qué tendría que pasar para que la tesis funcione."
+    best_for: "Inversores en ideas concentradas en Europa."
+    letters_page: https://andbank.es/boutiquehub/azagala/
+    access: open
+    # Lista manual: la web no deja entrar al robot. Las cartas nuevas se agregan a mano.
+    letters:
+      - {period: "4T 2022", url: "https://andbank.es/boutiquehub/wp-content/uploads/2023/02/Azagala_Carta_Trimestral_Febrero_2023.pdf", title: "Carta de febrero de 2023"}
+      - {period: "1T 2023", url: "https://andbank.es/boutiquehub/wp-content/uploads/2023/05/Azagala_Carta_Trimestral_April_2023.pdf", title: "Carta de abril de 2023"}
+      - {period: "2T 2023", url: "https://andbank.es/boutiquehub/wp-content/uploads/2023/09/Azagala_Carta_Trimestral_Julio_2023.pdf", title: "Carta de julio de 2023"}
+      - {period: "3T 2023", url: "https://andbank.es/boutiquehub/wp-content/uploads/2023/11/Azagala_Carta_Trimestral_noviembre_2023.pdf", title: "Carta de noviembre de 2023"}
+      - {period: "4T 2023", url: "https://andbank.es/boutiquehub/wp-content/uploads/2024/03/Azagala_Carta_4T_2023_OK.pdf"}
+      - {period: "1S 2024", url: "https://andbank.es/boutiquehub/wp-content/uploads/2024/09/Azagala_Carta_2H_2024.pdf", title: "Carta de septiembre de 2024"}
+      - {period: "2024", url: "https://andbank.es/boutiquehub/wp-content/uploads/2025/04/Azagala_Carta_Anual_2024.pdf", title: "Carta anual 2024"}
+      - {period: "1S 2025", url: "https://andbank.es/boutiquehub/wp-content/uploads/2025/10/Azagala_Carta_1S_2025.pdf"}
+      - {period: "2025", url: "https://andbank.es/boutiquehub/wp-content/uploads/2026/05/Azagala_Carta_Anual_2025.pdf", title: "Carta anual 2025"}
+      - {period: "1S 2026", url: "https://andbank.es/boutiquehub/wp-content/uploads/2026/09/Azagala_Carta_Semestral_2026_09_.pdf"}
+
+  - id: attitude
+    name: Rodrigo Villanueva
+    firm: Attitude Small Caps
+    style: "Small caps de calidad de todo el mundo, en un fondo joven y concentrado."
+    why: "Rodrigo cuenta cada trimestre qué tal le fue al fondo y comparte tesis de inversión completas, además de cómo usa la inteligencia artificial en su proceso."
+    best_for: "Inversores en small caps globales."
+    letters_page: https://attitudesmallcaps.substack.com/
+    access: open
+    # Lista manual: la web no deja entrar al robot. Las cartas nuevas se agregan a mano.
+    letters:
+      - {period: "3T 2026", url: "https://attitudesmallcaps.substack.com/p/resultados-y-dos-tesis-de-inversion"}
+      - {period: "2T 2026", url: "https://attitudesmallcaps.substack.com/p/cae-el-petroleo-efecto-domino-resultados"}
+      - {period: "1T 2026", url: "https://attitudesmallcaps.substack.com/p/que-hemos-hecho-en-las-caidas-resultados"}
+      - {period: "4T 2025", url: "https://attitudesmallcaps.substack.com/p/1783-ano-historico-de-rentabilidad"}
+      - {period: "3T 2025", url: "https://attitudesmallcaps.substack.com/p/espanol-resumen-q3-2025-attitude"}
+      - {period: "2T 2025", url: "https://attitudesmallcaps.substack.com/p/espanol-resumen-q2-2025-attitude"}
+      - {period: "4T 2024", url: "https://attitudesmallcaps.substack.com/p/espanol-resumen-q4-2024-attitude"}
+      - {period: "3T 2024", url: "https://attitudesmallcaps.substack.com/p/espanol-resumen-q3-2024-attitude"}
+      - {period: "2T 2024", url: "https://attitudesmallcaps.substack.com/p/espanol-resumen-q2-2024-attitude"}
+      - {period: "1T 2024", url: "https://attitudesmallcaps.substack.com/p/espanol-resumen-q1-2024-attitude"}
+      - {period: "2T 2023", url: "https://attitudesmallcaps.substack.com/p/attitude-small-caps-q2-2023-resultados"}
+
+  - id: gamma
+    name: Gabriel Castro
+    firm: Gamma Global · Sigma Internacional
+    style: "Value global y contrario, con ideas en energía, Asia y renta fija, en dos fondos."
+    why: "Gabriel publica la carta de cada fondo y además un análisis conjunto de los dos, con tesis completas de empresas poco conocidas."
+    best_for: "Inversores contrarios que buscan ideas fuera de lo habitual."
+    letters_page: https://gabcasla.substack.com/archive
+    access: open
+    # Lista manual: la web no deja entrar al robot. Las cartas nuevas se agregan a mano.
+    letters:
+      - {period: "3T 2026", url: "https://gabcasla.substack.com/p/gamma-global-3t-2026", title: "{label} · Gamma Global"}
+      - {period: "2T 2026", url: "https://gabcasla.substack.com/p/gamma-global-2t-2026", title: "{label} · Gamma Global"}
+      - {period: "1T 2026", url: "https://gabcasla.substack.com/p/gamma-global-1t-2026", title: "{label} · Gamma Global"}
+      - {period: "4T 2025", url: "https://gabcasla.substack.com/p/gamma-global-4t-2025", title: "{label} · Gamma Global"}
+      - {period: "3T 2025", url: "https://gabcasla.substack.com/p/gamma-global-2t-2025", title: "{label} · Gamma Global"}
+      - {period: "2T 2025", url: "https://gabcasla.substack.com/p/gamma-global-2t", title: "{label} · Gamma Global"}
+      - {period: "1T 2025", url: "https://gabcasla.substack.com/p/gamma-global-1t-2025", title: "{label} · Gamma Global"}
+      - {period: "4T 2024", url: "https://gabcasla.substack.com/p/gamma-global-q4-2024", title: "{label} · Gamma Global"}
+      - {period: "3T 2024", url: "https://gabcasla.substack.com/p/gamma-global-q3-2024", title: "{label} · Gamma Global"}
+      - {period: "2T 2024", url: "https://gabcasla.substack.com/p/gamma-global-q2-2024", title: "{label} · Gamma Global"}
+      - {period: "1T 2024", url: "https://gabcasla.substack.com/p/gamma-global-q1-2024", title: "{label} · Gamma Global"}
+      - {period: "4T 2023", url: "https://gabcasla.substack.com/p/gamma-global-q4-2023", title: "{label} · Gamma Global"}
+      - {period: "3T 2023", url: "https://gabcasla.substack.com/p/gamma-global-q3-2023", title: "{label} · Gamma Global"}
+      - {period: "2T 2023", url: "https://gabcasla.substack.com/p/gamma-global-q2-2023", title: "{label} · Gamma Global"}
+      - {period: "1T 2023", url: "https://gabcasla.substack.com/p/gamma-global-q1-2023", title: "{label} · Gamma Global"}
+      - {period: "4T 2022", url: "https://gabcasla.substack.com/p/gamma-global-q4-2022", title: "{label} · Gamma Global"}
+      - {period: "3T 2022", url: "https://gabcasla.substack.com/p/gamma-global-q3-2022", title: "{label} · Gamma Global"}
+      - {period: "2T 2022", url: "https://gabcasla.substack.com/p/gamma-global-q2-2022", title: "{label} · Gamma Global"}
+      - {period: "1T 2022", url: "https://gabcasla.substack.com/p/gamma-global-q1-2022", title: "{label} · Gamma Global"}
+      - {period: "2T 2026", url: "https://gabcasla.substack.com/p/sigma-internacional-2t-2026", title: "{label} · Sigma Internacional"}
+      - {period: "1T 2026", url: "https://gabcasla.substack.com/p/sigma-internacional-1t-2026", title: "{label} · Sigma Internacional"}
+      - {period: "4T 2025", url: "https://gabcasla.substack.com/p/sigma-internacional-4t-2025", title: "{label} · Sigma Internacional"}
+      - {period: "3T 2025", url: "https://gabcasla.substack.com/p/sigma-internacional-3t-2025", title: "{label} · Sigma Internacional"}
+      - {period: "2T 2025", url: "https://gabcasla.substack.com/p/sigma-internacional-2t-2025", title: "{label} · Sigma Internacional"}
+      - {period: "1T 2025", url: "https://gabcasla.substack.com/p/sigma-internacional-1t-2025", title: "{label} · Sigma Internacional"}
+      - {period: "4T 2024", url: "https://gabcasla.substack.com/p/sigma-internacional-q4-2024", title: "{label} · Sigma Internacional"}
+      - {period: "3T 2024", url: "https://gabcasla.substack.com/p/sigma-internacional-q3-2024", title: "{label} · Sigma Internacional"}
+      - {period: "2T 2024", url: "https://gabcasla.substack.com/p/sigma-internacional-q2-2024", title: "{label} · Sigma Internacional"}
+      - {period: "1T 2024", url: "https://gabcasla.substack.com/p/sigma-internacional-q1-2024", title: "{label} · Sigma Internacional"}
+      - {period: "4T 2023", url: "https://gabcasla.substack.com/p/sigma-internacional-q4-2023", title: "{label} · Sigma Internacional"}
+      - {period: "3T 2023", url: "https://gabcasla.substack.com/p/sigma-internacional-q3-2023", title: "{label} · Sigma Internacional"}
+      - {period: "2T 2023", url: "https://gabcasla.substack.com/p/sigma-internacional-q2-2023", title: "{label} · Sigma Internacional"}
+      - {period: "1T 2023", url: "https://gabcasla.substack.com/p/sigma-internacional-q1-2023", title: "{label} · Sigma Internacional"}
+      - {period: "4T 2022", url: "https://gabcasla.substack.com/p/sigma-internacional-q4-2022", title: "{label} · Sigma Internacional"}
+      - {period: "3T 2022", url: "https://gabcasla.substack.com/p/sigma-internacional-q3-2022", title: "{label} · Sigma Internacional"}
+      - {period: "2T 2022", url: "https://gabcasla.substack.com/p/sigma-internacional-q2-2022", title: "{label} · Sigma Internacional"}
+      - {period: "1T 2022", url: "https://gabcasla.substack.com/p/sigma-internacional-q1-2022", title: "{label} · Sigma Internacional"}
+      - {period: "4T 2021", url: "https://gabcasla.substack.com/p/sigma-internacional-q4-2021", title: "{label} · Sigma Internacional"}
+      - {period: "2T 2026", url: "https://gabcasla.substack.com/p/analisis-2t-2026-sigma-internacional", title: "Análisis {label} de los dos fondos"}
+      - {period: "1T 2026", url: "https://gabcasla.substack.com/p/analisis-1t-2026-sigma-internacional", title: "Análisis {label} de los dos fondos"}
+      - {period: "4T 2025", url: "https://gabcasla.substack.com/p/analisis-4t-2025-sigma-internacional", title: "Análisis {label} de los dos fondos"}
+      - {period: "3T 2025", url: "https://gabcasla.substack.com/p/analisis-3t-2025-sigma-internacional", title: "Análisis {label} de los dos fondos"}
+      - {period: "2T 2025", url: "https://gabcasla.substack.com/p/analisis-2t-sigma-internacional-and", title: "Análisis {label} de los dos fondos"}
+      - {period: "1T 2025", url: "https://gabcasla.substack.com/p/analisis-1t-sigma-internacional-and", title: "Análisis {label} de los dos fondos"}
+      - {period: "2024", url: "https://gabcasla.substack.com/p/analisis-2024-sigma-internacional", title: "Análisis {label} de los dos fondos"}
+      - {period: "2023", url: "https://gabcasla.substack.com/p/analisis-2023-sigma-internacional", title: "Análisis {label} de los dos fondos"}
+
+  - id: argos
+    name: Miguel de Juan Fernández
+    firm: Argos Capital
+    style: "Value global con mentalidad de largo plazo, en un fondo que lleva funcionando desde 2010."
+    why: "Miguel lleva más de quince años escribiendo una carta cada mes. Es un registro muy completo de cómo un gestor piensa durante todo un ciclo."
+    best_for: "Inversores que quieren seguir a un gestor mes a mes."
+    letters_page: https://argos.page.gd/cartas.html
+    latest_url: https://argos.page.gd/cartas.html
+    access: latest
+    access_note: "Miguel publica más de 190 cartas mensuales, desde 2010, en la web del fondo. La web no deja que un robot las lea, así que el enlace lleva directo a su archivo."
+    button_text: "Ir al archivo de cartas"

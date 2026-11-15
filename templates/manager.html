@@ -18,7 +18,7 @@
   <p><a class="button" href="{{ m.letters_page }}" target="_blank" rel="noopener">Ir a {{ m.firm }} &#8599;</a></p>
 {% elif m.access == 'latest' %}
   <p class="notice">{{ m.access_note or (m.firm ~ " solo publica su carta más reciente, en un enlace que se reemplaza cada trimestre.") }}</p>
-  <p><a class="button" href="{{ m.latest_url }}" target="_blank" rel="noopener">Leer la última carta &#8599;</a></p>
+  <p><a class="button" href="{{ m.latest_url }}" target="_blank" rel="noopener">{{ m.button_text or "Leer la última carta" }} &#8599;</a></p>
 {% else %}
   <p class="source">Los enlaces llevan a la web de la gestora, salvo los marcados con "vía", que son copias públicas de cartas que la gestora ya no aloja. <a href="{{ m.letters_page }}" target="_blank" rel="noopener">Página oficial de cartas &#8599;</a></p>
   {% for year, items in m.by_year %}

@@ -287,14 +287,17 @@ def main():
         added = 0
 
         # 1) letters typed by hand in managers.yaml
+        new_manager = not known      # a whole list typed at once: keep it out of the RSS feed
         for item in m.get("letters") or []:
             per = periods.from_manual(item.get("period", ""))
             if not per or not item.get("url"):
                 problems.append((m, f"A manual letter has a missing or unreadable period/url: {item}"))
                 continue
             if item["url"] not in known_urls:
-                known.append({"url": item["url"], "period": per, "title": item.get("title"),
-                              "first_seen": today, "source": "manual", "backfill": False})
+                title = item.get("title")
+                known.append({"url": item["url"], "period": per,
+                              "title": title.replace("{label}", per["label"]) if title else None,
+                              "first_seen": today, "source": "manual", "backfill": new_manager})
                 known_urls.add(item["url"])
                 added += 1
 

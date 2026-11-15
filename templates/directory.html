@@ -20,7 +20,7 @@
       <td class="who"><a href="{{ root }}m/{{ m.id }}.html">{{ m.name }}</a><span class="firm">{{ m.firm }}</span></td>
       <td class="style">{{ m.style }}</td>
       <td class="bf">{{ m.best_for or "" }}</td>
-      <td class="num">{% if m.access == 'registration' %}<span class="reg">En la web de la gestora</span>{% elif m.access == 'latest' %}<span class="reg">Solo la última</span>{% elif m.letters %}{{ m.letters|length }}<span class="latest">última {{ m.latest.period.label }}</span>{% else %}0{% endif %}</td>
+      <td class="num">{% if m.access == 'registration' %}<span class="reg">En la web de la gestora</span>{% elif m.access == 'latest' %}<span class="reg">{{ 'En su web' if m.button_text else 'Solo la última' }}</span>{% elif m.letters %}{{ m.letters|length }}<span class="latest">última {{ m.latest.period.label }}</span>{% else %}0{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>

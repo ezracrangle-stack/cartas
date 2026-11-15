@@ -4942,5 +4942,883 @@
    "backfill": true
   }
  ],
- "panza": []
+ "panza": [],
+ "argos": [],
+ "azagala": [
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2026/09/Azagala_Carta_Semestral_2026_09_.pdf",
+   "period": {
+    "year": 2026,
+    "part": "H1",
+    "label": "1S 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2026/05/Azagala_Carta_Anual_2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Annual",
+    "label": "2025",
+    "sort": 202512
+   },
+   "title": "Carta anual 2025",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2025/10/Azagala_Carta_1S_2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "1S 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2025/04/Azagala_Carta_Anual_2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Annual",
+    "label": "2024",
+    "sort": 202412
+   },
+   "title": "Carta anual 2024",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2024/09/Azagala_Carta_2H_2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "1S 2024",
+    "sort": 202406
+   },
+   "title": "Carta de septiembre de 2024",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2024/03/Azagala_Carta_4T_2023_OK.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2023/11/Azagala_Carta_Trimestral_noviembre_2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": "Carta de noviembre de 2023",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2023/09/Azagala_Carta_Trimestral_Julio_2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": "Carta de julio de 2023",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2023/05/Azagala_Carta_Trimestral_April_2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": "Carta de abril de 2023",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2023/02/Azagala_Carta_Trimestral_Febrero_2023.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": "Carta de febrero de 2023",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  }
+ ],
+ "attitude": [
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/resultados-y-dos-tesis-de-inversion",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/cae-el-petroleo-efecto-domino-resultados",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/que-hemos-hecho-en-las-caidas-resultados",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/1783-ano-historico-de-rentabilidad",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/espanol-resumen-q3-2025-attitude",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/espanol-resumen-q2-2025-attitude",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/espanol-resumen-q4-2024-attitude",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/espanol-resumen-q3-2024-attitude",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/espanol-resumen-q2-2024-attitude",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/espanol-resumen-q1-2024-attitude",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://attitudesmallcaps.substack.com/p/attitude-small-caps-q2-2023-resultados",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  }
+ ],
+ "gamma": [
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-3t-2026",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": "3T 2026 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-2t-2026",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": "2T 2026 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-2t-2026",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": "2T 2026 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/analisis-2t-2026-sigma-internacional",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": "Análisis 2T 2026 de los dos fondos",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-1t-2026",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": "1T 2026 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-1t-2026",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": "1T 2026 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/analisis-1t-2026-sigma-internacional",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": "Análisis 1T 2026 de los dos fondos",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-4t-2025",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": "4T 2025 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-4t-2025",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": "4T 2025 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/analisis-4t-2025-sigma-internacional",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": "Análisis 4T 2025 de los dos fondos",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-2t-2025",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": "3T 2025 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-3t-2025",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": "3T 2025 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/analisis-3t-2025-sigma-internacional",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": "Análisis 3T 2025 de los dos fondos",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-2t",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": "2T 2025 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-2t-2025",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": "2T 2025 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/analisis-2t-sigma-internacional-and",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": "Análisis 2T 2025 de los dos fondos",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-1t-2025",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": "1T 2025 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-1t-2025",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": "1T 2025 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/analisis-1t-sigma-internacional-and",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": "Análisis 1T 2025 de los dos fondos",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q4-2024",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": "4T 2024 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q4-2024",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": "4T 2024 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/analisis-2024-sigma-internacional",
+   "period": {
+    "year": 2024,
+    "part": "Annual",
+    "label": "2024",
+    "sort": 202412
+   },
+   "title": "Análisis 2024 de los dos fondos",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q3-2024",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": "3T 2024 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q3-2024",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": "3T 2024 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q2-2024",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": "2T 2024 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q2-2024",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": "2T 2024 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q1-2024",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": "1T 2024 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q1-2024",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": "1T 2024 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q4-2023",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": "4T 2023 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q4-2023",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": "4T 2023 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/analisis-2023-sigma-internacional",
+   "period": {
+    "year": 2023,
+    "part": "Annual",
+    "label": "2023",
+    "sort": 202312
+   },
+   "title": "Análisis 2023 de los dos fondos",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q3-2023",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": "3T 2023 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q3-2023",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": "3T 2023 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q2-2023",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": "2T 2023 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q2-2023",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": "2T 2023 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q1-2023",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": "1T 2023 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q1-2023",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": "1T 2023 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q4-2022",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": "4T 2022 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q4-2022",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": "4T 2022 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q3-2022",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": "3T 2022 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q3-2022",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": "3T 2022 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q2-2022",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": "2T 2022 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q2-2022",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": "2T 2022 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/gamma-global-q1-2022",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": "1T 2022 · Gamma Global",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q1-2022",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": "1T 2022 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://gabcasla.substack.com/p/sigma-internacional-q4-2021",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "4T 2021",
+    "sort": 202112
+   },
+   "title": "4T 2021 · Sigma Internacional",
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": true
+  }
+ ]
 }
