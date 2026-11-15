@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-15T22:42:05+00:00",
+ "last_run": "2026-11-15T22:49:29+00:00",
  "managers": {
   "cobas": {
    "status": "ok",
@@ -49,6 +49,31 @@
   "dltv": {
    "status": "ok",
    "found_on_page": 17,
+   "new": 0
+  },
+  "numantia": {
+   "status": "ok",
+   "found_on_page": 10,
+   "new": 0
+  },
+  "invexcel": {
+   "status": "ok",
+   "found_on_page": 39,
+   "new": 0
+  },
+  "brightgate": {
+   "status": "ok",
+   "found_on_page": 33,
+   "new": 0
+  },
+  "only-compounders": {
+   "status": "ok",
+   "found_on_page": 11,
+   "new": 0
+  },
+  "buyandhold": {
+   "status": "ok",
+   "found_on_page": 5,
    "new": 0
   }
  }
