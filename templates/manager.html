@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}{{ m.name }}, {{ m.firm }}{% endblock %}
+{% block description %}{{ m.why }}{% endblock %}
+{% block main %}
+<p class="crumb"><a href="{{ root }}managers.html">&larr; Todos los gestores</a></p>
+<h1 class="page-title">{{ m.name }}</h1>
+<p class="firm-line big">{{ m.firm }}</p>
+<p class="style">{{ m.style }}</p>
+{% if m.best_for %}<p class="best-for"><span>Ideal para</span> {{ m.best_for }}</p>{% endif %}
+
+<blockquote class="take">
+  <p class="take-label">{{ m.take_label or ("Por qué leo a " ~ m.name.split()[0]) }}</p>
+  <p>{{ m.why }}</p>
+</blockquote>
+
+{% if m.access == 'registration' %}
+  <p class="notice">{{ m.access_note or (m.firm ~ " solo comparte sus cartas con lectores registrados. Regístrate en su web para leerlas.") }}</p>
+  <p><a class="button" href="{{ m.letters_page }}" target="_blank" rel="noopener">Ir a {{ m.firm }} &#8599;</a></p>
+{% else %}
+  <p class="source">Los enlaces llevan a la web de la gestora, salvo los marcados con "vía", que son copias públicas de cartas que la gestora ya no aloja. <a href="{{ m.letters_page }}" target="_blank" rel="noopener">Página oficial de cartas &#8599;</a></p>
+  {% for year, items in m.by_year %}
+  <section class="year">
+    <h2>{{ year }}</h2>
+    <ul class="year-list">
+    {% for x in items %}
+      <li><a href="{{ x.url }}" target="_blank" rel="noopener">{% if x.title %}{{ x.title }}{% elif x.period.part == "Annual" %}Carta anual{% else %}{{ x.period.short }}{% endif %}<span class="sr"> {{ year }}</span><span class="arrow"> &#8599;</span></a>{% if x.via %} <span class="via">vía {{ x.via }}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+{% endif %}
+
+{% set share_text = "¿Conoces a alguien que debería leer a " ~ m.name ~ "? Mándale esta página." %}
+{% set share_title = m.name ~ " (" ~ m.firm ~ "): todas sus cartas en un solo lugar" %}
+{% include "_share.html" %}
+
+<aside class="cta slim">
+  <p class="cta-text">Ezra's Notes: invertir con mentalidad de largo plazo, viendo las empresas como lo haría su dueño. Gratis, en inglés.</p>
+  <a class="button" href="{{ subscribe_url }}">Suscríbete</a>
+</aside>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Cartas a Inversores{% endblock %}
+{% block main %}
+<section class="lede">
+  <p class="dek">Cada trimestre leo las cartas de un grupo de gestores value hispanos. Aquí están las que vale la pena leer, cada una enlazada a la web de su gestora.</p>
+  <p class="free">Gratis. Sin registro y sin muros de pago. Das clic y lees.</p>
+  <p class="small">La lista es mía. El archivo busca cartas nuevas cada semana. Por ahora hay {{ letter_count }} cartas de {{ manager_count }} gestores.</p>
+</section>
+
+<section>
+  <h2 class="rule-head">Cartas recientes</h2>
+  <ol class="letters">
+  {% for x in latest %}
+    <li>
+      <span class="period">{{ x.period.label }}</span>
+      <span class="who"><a href="{{ root }}m/{{ x.manager.id }}.html">{{ x.manager.name }}</a><span class="firm">{{ x.manager.firm }}</span></span>
+      <a class="read" href="{{ x.url }}" target="_blank" rel="noopener">Leer<span class="sr"> {{ x.display }} de {{ x.manager.name }}</span> &#8599;{% if x.via %}<span class="via">vía {{ x.via }}</span>{% endif %}</a>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+
+{% set share_text = "¿Conoces a alguien que lea cartas de gestores? Mándale esta página." %}
+{% set share_title = "Cartas a Inversores: las cartas de los gestores value hispanos que lee Ezra Crangle" %}
+{% include "_share.html" %}
+
+<aside class="cta">
+  <p class="cta-kicker">Ezra's Notes</p>
+  <p class="cta-text">Invertir con una mentalidad de largo plazo: ver las empresas más allá de los números, como lo haría su dueño.</p>
+  <p class="cta-sub">Ezra's Notes es gratis y está en inglés.</p>
+  <a class="button" href="{{ subscribe_url }}">Suscríbete gratis</a>
+</aside>
+
+{% include "_wanted.html" %}
+
+{% include "_sister.html" %}
+
+<section>
+  <h2 class="rule-head">Los gestores</h2>
+  <ul class="roster">
+  {% for m in managers %}
+    <li><a href="{{ root }}m/{{ m.id }}.html">{{ m.name }}</a> <span class="firm">{{ m.firm }}</span></li>
+  {% endfor %}
+  </ul>
+  <p><a class="more" href="{{ root }}managers.html">Por qué leo a cada uno &rarr;</a></p>
+  <p class="small">¿Falta una carta o un gestor? Escríbeme a <a class="mail" data-u="letters" data-d="ezrasnotes.com" href="{{ newsletter_url }}">letters [arroba] ezrasnotes [punto] com</a>.</p>
+</section>
+{% endblock %}

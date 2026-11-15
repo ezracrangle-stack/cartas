@@ -1,0 +1,30 @@
+name: Probe letters pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: "id=url pairs separated by spaces"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/probe.py ${{ inputs.pages }}
+      - name: Save fixtures on the probe branch
+        run: |
+          git config user.name  "cartas-bot"
+          git config user.email "cartas-bot@users.noreply.github.com"
+          git checkout -B probe
+          git add -f tests/fixtures
+          git commit -m "Probe $(date -u +%F)" || echo "Nothing new"
+          git push -f origin probe

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Acerca de{% endblock %}
+{% block main %}
+<h1 class="page-title">Acerca de</h1>
+<div class="prose">
+  <p>Soy Ezra Crangle. Escribo <a href="{{ newsletter_url }}">Ezra's Notes</a>, un newsletter sobre value investing. Las cartas de los gestores son de las mejores fuentes gratuitas que hay: sirven para encontrar ideas de inversión y para ver cómo piensan los profesionales. En español hay gestores muy buenos, pero sus cartas están repartidas en decenas de webs, así que junté aquí las que leo.</p>
+  <p>La lista de gestores y los comentarios son míos. Los enlaces llevan a la web de cada gestora. Si una gestora ya no aloja una carta antigua, enlazo a una copia pública y lo indico. Las cartas que son solo para los partícipes de un fondo se quedan fuera.</p>
+  <p>Es gratis y seguirá siéndolo. Sin cuenta, sin pedirte el correo y sin muro de pago.</p>
+  <h2>Enlaces rotos y correcciones</h2>
+  <p>¿Encontraste un enlace roto, una carta con la fecha equivocada o algo fuera de lugar? Si diriges un fondo y quieres que quite tus cartas o que las enlace de otra forma, también. Escríbeme a <a class="mail" data-u="letters" data-d="ezrasnotes.com" href="{{ newsletter_url }}">letters [arroba] ezrasnotes [punto] com</a> y lo arreglo.</p>
+  {% include "_wanted.html" %}
+  <h2>Sitios hermanos</h2>
+  <p><a href="https://letters.ezrasnotes.com/">Investor Letters</a> es la versión en inglés: las cartas de los gestores value que leo en ese idioma. <a href="https://gd.ezrasnotes.com/">The G&amp;D Index</a> es un índice no oficial con buscador de Graham &amp; Doddsville, la revista de inversión de los alumnos de Columbia Business School.</p>
+  <h2>Para no perderte nada</h2>
+  <p>Las cartas nuevas aparecen en el <a href="{{ root }}feed.xml">feed RSS</a>. Mis notas sobre ellas van a los <a href="{{ subscribe_url }}">suscriptores de Ezra's Notes</a>.</p>
+</div>
+{% endblock %}

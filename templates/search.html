@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Buscar{% endblock %}
+{% block description %}Busca entre los gestores{% if has_companies %} y las empresas de las que escriben{% endif %}.{% endblock %}
+{% block main %}
+<h1 class="page-title">Buscar</h1>
+<p class="dek">Busca un gestor, una gestora{% if has_companies %}, un estilo de inversión o una empresa{% else %} o un estilo de inversión{% endif %}.</p>
+<label class="filter">
+  <span class="sr">Buscar</span>
+  <input id="q" type="search" placeholder="Prueba con Paramés, small caps o calidad" autocomplete="off" autofocus>
+</label>
+<div id="results" data-index="{{ root }}search.json" data-root="{{ root }}"></div>
+<noscript><p class="small">El buscador necesita JavaScript. Puedes ver la <a href="managers.html">lista de gestores</a>.</p></noscript>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/search.js?v={{ asset_v }}"></script>{% endblock %}

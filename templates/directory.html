@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Los gestores{% endblock %}
+{% block description %}Los gestores value hispanos cuyas cartas leo, y para quién es cada uno.{% endblock %}
+{% block main %}
+<h1 class="page-title">Los gestores</h1>
+<p class="dek">A quién leo y para quién es cada uno. Da clic en un nombre para ver mi opinión y todas sus cartas.</p>
+
+<label class="filter">
+  <span class="sr">Filtrar gestores</span>
+  <input id="filter" type="search" placeholder="Filtra por nombre, gestora, estilo o tipo de inversor" autocomplete="off">
+</label>
+
+<table class="mtable">
+  <thead>
+    <tr><th scope="col">Gestor</th><th scope="col">Estilo de inversión</th><th scope="col">Ideal para</th><th scope="col" class="num">Cartas</th></tr>
+  </thead>
+  <tbody id="directory">
+  {% for m in managers %}
+    <tr data-search="{{ (m.name ~ ' ' ~ m.firm ~ ' ' ~ m.style ~ ' ' ~ (m.best_for or ''))|lower }}">
+      <td class="who"><a href="{{ root }}m/{{ m.id }}.html">{{ m.name }}</a><span class="firm">{{ m.firm }}</span></td>
+      <td class="style">{{ m.style }}</td>
+      <td class="bf">{{ m.best_for or "" }}</td>
+      <td class="num">{% if m.access == 'registration' %}<span class="reg">En la web de la gestora</span>{% elif m.letters %}{{ m.letters|length }}<span class="latest">última {{ m.latest.period.label }}</span>{% else %}0{% endif %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+<p id="empty" class="small" hidden>Ningún gestor coincide.</p>
+
+{% set share_text = "¿Conoces a alguien que lea cartas de gestores? Mándale esta lista." %}
+{% set share_title = "Los gestores value hispanos que vale la pena leer, elegidos por Ezra Crangle" %}
+{% include "_share.html" %}
+
+{% include "_wanted.html" %}
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/filter.js?v={{ asset_v }}"></script>{% endblock %}
