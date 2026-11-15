@@ -1906,5 +1906,1029 @@
    "source": "auto",
    "backfill": true
   }
+ ],
+ "bestinver": [
+  {
+   "url": "https://indd.adobe.com/view/720032c8-f966-4eb9-b953-b03ab467c520",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://www.bestinver.es/escuela-de-inversion/carta-a-nuestros-inversores-segundo-trimestre-2026/",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.bestinver.es/escuela-de-inversion/carta-a-nuestros-inversores-primer-trimestre-2026/",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/33b8e28b-eed9-4d61-a306-37b8c3d8e648",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/5fb39e0b-d44f-4b68-a6b7-124fe862ba02",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/fe38bd1e-2d8b-4f33-a663-d88144f99d1b",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/8b60ffcc-0742-4d18-b9e1-326b8d4cd2a5",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/a6c19c96-4f5f-48c8-a8b9-ede70f4f698d",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/9a610f43-35b0-4a3a-b65d-26d945f226ef",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/91bf442a-3e03-40d0-ad70-ee5e71896a4d",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/b5baf1be-f3d3-4983-95cd-ea84f106cf43",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/7d58085d-e58e-4091-b8ee-78cdd1b7cf2b",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/5024e4fc-7edb-4944-a176-4c6d693728a8",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/d235b2b3-abd2-40c3-b229-24da1d325fe9",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/e8edf3aa-ab0b-422f-8df5-07c809536940",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/3f0e260b-b2ff-45e7-8292-487861c95a35",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/96192d11-19bd-4f04-bb8b-58b3f7a77a75",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/9b08b022-589d-48d7-8c9f-77ef4e54509f",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/7d03d871-e1c9-4e93-b8b1-303bb388c3b0",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "4T 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/751df56b-4ec1-40e0-9e70-83a954525441",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "3T 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/d8f63a71-72cc-4b5d-bc77-bf511c56cf95",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "2T 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/97005d6e-0575-4758-80c2-530b0af8ecfc",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "1T 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://indd.adobe.com/view/7b22e0a2-284e-4109-92d3-bcf923942ff4",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "4T 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.bestinver.es/wp-content/uploads/bestinver_carta_trimestral_2020_3t.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "3T 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "salmon-mundi": [
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2026/10/Carta-Tercer-Trimestre-2026.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2026/07/Carta-Segundo-Trimestre-2026.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2026/04/Carta-Primer-Trimestre-2026.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2026/01/Carta-anual-2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Annual",
+    "label": "2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2025/10/Carta-Tercer-Trimestre-2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2025/07/Carta-Primer-Semestre-2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "1S 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2025/04/Carta-Primer-Trimestre-2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2025/01/Carta-anual-2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Annual",
+    "label": "2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2024/10/20241001-Carta-trimestral.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2024/07/Carta-semestral-2024-2.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "1S 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2024/04/20240401-Carta-trimestral.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://salmonmundi.com/wp-content/uploads/2024/01/Carta-anual-2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Annual",
+    "label": "2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "abaco": [
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-octubre-2026-abaco-capital/",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-inversores-julio-2026/",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-inversores-mayo-2026/",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-enero-2026/",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-octubre-2025/",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-julio-2025/",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-abril-2025/",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-enero-2025/",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-octubre-2024/",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-julio-2024/",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-abril-2024/",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-enero-2024/",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-octubre-2023/",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-julio-2023/",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-marzo-2023-2/",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-marzo-2023/",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-octubre-2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.abaco-capital.com/carta-a-los-inversores-julio-2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "metagestion": [
+  {
+   "url": "https://metagestion.com/2026/10/09/carta-trimestral-3t-2026/",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://metagestion.com/2026/07/15/carta-al-participe-1s2026/",
+   "period": {
+    "year": 2026,
+    "part": "H1",
+    "label": "1S 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://metagestion.com/2026/01/22/carta-anual-a-los-participes-2025/",
+   "period": {
+    "year": 2025,
+    "part": "Annual",
+    "label": "2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://metagestion.com/2024/03/06/carta-participes-luis-catalan-de-ocon/",
+   "period": {
+    "year": 2024,
+    "part": "Annual",
+    "label": "2024",
+    "sort": 202412
+   },
+   "title": "Carta de Luis Catalán de Ocón (marzo 2024)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://metagestion.com/2023/10/11/carta-trimestral-3t2023/",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://metagestion.com/2023/07/10/carta-trimestral-2t2023/",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://metagestion.com/2023/04/25/carta-trimestral-1t2023/",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "dltv": [
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q1-2026-DLTV-Europe.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q4-2025-DLTV-Europe.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q3-2025-DLTV-Europe.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q2-2025-DLTV-Europe.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q1-2025-DLTV-Europe.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q4-2024-DLTV-Europe.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q3-2024-DLTV-Europe.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q2-2024-DLTV-Europe.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q1-2024-DLTV-Europe.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q4-2023-DLTV-Europe.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q3-2023-DLTV-Europe.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q2-2023-DLTV-Europe.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q1-2023-DLTV-Europe.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q4-2022-DLTV-Europe.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q3-2022-DLTV-Europe.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q2-2022-DLTV-Europe.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://azeuwwebpubblob.blob.core.windows.net/webduxpro/Q1-2022-DLTV-Europe.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
  ]
 }

@@ -99,3 +99,94 @@ managers:
       select: 'a[href*="Castanar-IF"][href$=".pdf"]'
       url_attr: href
       period_from: url
+
+  - id: bestinver
+    name: Equipo de inversión
+    firm: Bestinver
+    style: "Value clásico en Europa y el mundo, la gestora donde empezó buena parte del value español."
+    why: "Bestinver es la escuela de la que salieron Paramés, Guzmán de Lázaro y otros. Leer sus cartas de hoy ayuda a ver cómo ha cambiado esa forma de invertir con un equipo nuevo."
+    best_for: "Quien quiera conocer el origen del value en España."
+    take_label: "Por qué los leo"
+    letters_page: https://www.bestinver.es/escuela-de-inversion/carta-trimestral-historico/
+    access: open
+    scrape:
+      select: 'a[href*="indd.adobe.com/view"], a[href*="carta-a-nuestros-inversores-"], a[href*="bestinver_carta"]'
+      url_attr: href
+      label: accordion
+      period_from: text
+      exclude: 'utm_'
+      more_pages:
+        - https://www.bestinver.es/escuela-de-inversion/carta-a-nuestros-inversores/
+    letters:
+      - {period: "3T 2026", url: "https://indd.adobe.com/view/720032c8-f966-4eb9-b953-b03ab467c520"}
+
+  - id: salmon-mundi
+    name: Guillermo Nieto y Marta Escribano
+    firm: Salmón Mundi Capital
+    style: "Value global y concentrado en empresas de calidad compradas a buen precio."
+    why: "Guillermo y Marta explican con calma cada posición y lo que ven en el negocio, en cartas cortas y fáciles de leer."
+    best_for: "Inversores que quieren cartas breves y al grano."
+    take_label: "Por qué los leo"
+    letters_page: https://salmonmundi.com/informes/
+    access: open
+    scrape:
+      select: 'a[href*="/wp-content/uploads/"][href$=".pdf"]'
+      url_attr: href
+      period_from: url
+      include: 'carta'
+      exclude: 'factsheet'
+    overrides:
+      - {match: "20240401-Carta", period: "1T 2024"}
+      - {match: "20241001-Carta", period: "3T 2024"}
+      - {match: "Carta-semestral-2024", period: "1S 2024"}
+
+  - id: metagestion
+    name: Equipo de inversión
+    firm: Metagestión
+    style: "Value y calidad en Europa y Estados Unidos, con fondos de bolsa española, global y del sector financiero."
+    why: "Metagestión publica cartas cortas en las que explica qué compró, qué vendió y cómo ve el mercado ese trimestre."
+    best_for: "Inversores que siguen la bolsa española y los bancos."
+    take_label: "Por qué los leo"
+    letters_page: https://metagestion.com/wp-json/wp/v2/posts?search=carta&per_page=100&_fields=link,title,date
+    access: open
+    scrape:
+      format: wp_json
+      select: 'a'
+      url_attr: href
+      period_from: text
+      include: 'carta'
+    overrides:
+      - match: "luis-catalan-de-ocon"
+        title: "Carta de Luis Catalán de Ocón (marzo 2024)"
+
+  - id: abaco
+    name: Pablo González
+    firm: Abaco Capital
+    style: "Value en empresas pequeñas y medianas de Europa, sobre todo de la península ibérica."
+    why: "Pablo escribe sobre empresas que casi nadie sigue en España y Portugal, con el detalle de alguien que las visita."
+    best_for: "Inversores en small caps ibéricas."
+    letters_page: https://www.abaco-capital.com/category/cartas-trimestrales/
+    access: open
+    scrape:
+      select: 'a[href*="abaco-capital.com/carta"]'
+      url_attr: href
+      period_from: url
+      exclude: '/carta-a-inversores/$'
+      shift_quarter: -1        # cada carta lleva el mes en que sale: la de octubre es del 3T
+      archive_pages:
+        - https://www.abaco-capital.com/category/cartas-trimestrales/page/2/
+        - https://www.abaco-capital.com/category/cartas-trimestrales/page/3/
+        - https://www.abaco-capital.com/category/cartas-trimestrales/page/4/
+
+  - id: dltv
+    name: Beltrán Palazuelo
+    firm: Dux Inversores · DLTV Europe FI
+    style: "Value europeo de largo plazo, con pocas empresas y poca rotación."
+    why: "Beltrán explica cada trimestre por qué mantiene sus posiciones y cómo piensa en el largo plazo de cada negocio."
+    best_for: "Inversores pacientes en bolsa europea."
+    letters_page: https://www.duxinversores.com/cartas-trimestrales-dltv-europe-fi/
+    access: open
+    scrape:
+      select: 'a[href*="DLTV-Europe"][href$=".pdf"]'
+      url_attr: href
+      period_from: url

@@ -122,7 +122,25 @@ def _label(el, prefer_context=False):
     return _context(el)
 
 
+def _shift(per, n):
+    """Move a quarterly period n quarters (for letters named after the month they came out)."""
+    if not per or not per["part"].startswith("Q"):
+        return per
+    i = per["year"] * 4 + int(per["part"][1]) - 1 + n
+    return periods.make(i // 4, f"Q{i % 4 + 1}")
+
+
+def _wp_json(text):
+    """A WordPress posts API answer turned into plain links, so the usual rules apply."""
+    import html as h
+    items = json.loads(text)
+    return "".join(f'<a href="{h.escape(x["link"])}">{h.escape(h.unescape(x["title"]["rendered"]))}</a>\n'
+                   for x in items)
+
+
 def find_letters(html, page_url, cfg):
+    if cfg.get("format") == "wp_json":
+        html = _wp_json(html)
     soup = BeautifulSoup(html, "html.parser")
     url_attr = cfg.get("url_attr", "href")
     include = re.compile(cfg["include"], re.I) if cfg.get("include") else None
@@ -136,7 +154,10 @@ def find_letters(html, page_url, cfg):
         url = urljoin(page_url, raw).replace(" ", "%20")
         if url in seen:
             continue
-        text = _label(el, cfg.get("label") == "context")
+        if cfg.get("label") == "accordion" and el.find_parent("dd") and el.find_parent("dd").find_previous_sibling("dt"):
+            text = _clean(el.find_parent("dd").find_previous_sibling("dt").get_text(" "))
+        else:
+            text = _label(el, cfg.get("label") == "context")
         hay = f"{text} {url}"
         if include and not include.search(hay):
             continue
@@ -149,6 +170,8 @@ def find_letters(html, page_url, cfg):
             per = periods.parse(text) or periods.parse_url(url)
         else:                    # period_from: url → the file name decides, nothing else
             per = periods.parse_url(url)
+        if cfg.get("shift_quarter"):
+            per = _shift(per, int(cfg["shift_quarter"]))
         if not per:              # no date found: not a letter (presentations, memos)
             continue
         if per["year"] < since:
