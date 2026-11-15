@@ -13,7 +13,7 @@ import re
 import sys
 import time
 import urllib.robotparser
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urldefrag, urljoin, urlparse
 
 import yaml
 from bs4 import BeautifulSoup
@@ -151,7 +151,7 @@ def find_letters(html, page_url, cfg):
         raw = _attr(el, url_attr)
         if not raw or raw.startswith(("#", "javascript:", "mailto:")):
             continue
-        url = urljoin(page_url, raw).replace(" ", "%20")
+        url = urldefrag(urljoin(page_url, raw))[0].replace(" ", "%20")
         if url in seen:
             continue
         if cfg.get("label") == "accordion" and el.find_parent("dd") and el.find_parent("dd").find_previous_sibling("dt"):

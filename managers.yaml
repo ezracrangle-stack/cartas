@@ -190,3 +190,96 @@ managers:
       select: 'a[href*="DLTV-Europe"][href$=".pdf"]'
       url_attr: href
       period_from: url
+
+  - id: numantia
+    name: Emérito Quintana
+    firm: Numantia Patrimonio Global
+    style: "Value global con pocas empresas, elegidas por la calidad del negocio y del equipo directivo."
+    why: "Emérito escribe una carta al año, larga y pensada, en la que repasa cada empresa de la cartera como si fuera su dueño."
+    best_for: "Inversores que prefieren una carta anual a fondo antes que muchas cortas."
+    letters_page: https://www.numantiapatrimonio.com/
+    access: open
+    scrape:
+      select: 'a[href*="pdfs/Numantia"]'
+      url_attr: href
+      period_from: url
+    overrides:
+      - {match: "Numantia_feb2018", title: "Carta de febrero de 2018"}
+      - {match: "Numantia_ago2018", title: "Carta de agosto de 2018"}
+
+  - id: invexcel
+    name: Equipo de inversión
+    firm: Invexcel Patrimonio
+    style: "Value global con una cartera diversificada de empresas de calidad."
+    why: "Invexcel publica un comentario cada trimestre desde 2017 con los cambios de la cartera y su visión del mercado."
+    best_for: "Inversores que quieren seguir una cartera value trimestre a trimestre."
+    take_label: "Por qué los leo"
+    letters_page: https://invexcel.com/wp-json/wp/v2/posts?search=comentario&per_page=100&_fields=link,title,date
+    access: open
+    scrape:
+      format: wp_json
+      select: 'a'
+      url_attr: href
+      period_from: text
+      include: 'trimestral'
+
+  - id: brightgate
+    name: Equipo de inversión
+    firm: BrightGate Capital
+    style: "Dos fondos: Global Income, de renta fija flexible, y Focus Fund, de bolsa concentrada."
+    why: "BrightGate escribe cartas semestrales largas sobre crédito y renta fija, algo poco común entre los gestores value en español."
+    best_for: "Inversores que quieren entender la renta fija con mentalidad value."
+    take_label: "Por qué los leo"
+    letters_page: https://brightgatecapital.com/brightgate-global-income-cartas-a-co-participes/
+    access: open
+    scrape:
+      select: 'a[href*="/documentacion/brightgate/"]'
+      url_attr: href
+      period_from: url
+      exclude: 'ENG|letter|Interim-Letter'
+      more_pages:
+        - https://brightgatecapital.com/brightgate-focus-fund-cartas-a-co-participes/
+    overrides:
+      - {match: "global-income", title: "{label} · Global Income"}
+      - {match: "focus-fund", title: "{label} · Focus Fund"}
+      - {match: "petroleo", period: "4T 2018", title: "Nota sobre el petróleo (noviembre 2018)"}
+
+  - id: only-compounders
+    name: Enrique Bestilleiro
+    firm: Only Compounders
+    style: "Solo empresas compounder: negocios de alta calidad que reinvierten a buenas rentabilidades durante años."
+    why: "Enrique explica con números por qué cada empresa puede componer durante décadas, y mezcla cartas escritas con vídeos."
+    best_for: "Inversores en empresas de calidad a largo plazo."
+    letters_page: https://onlycompounders.com/wp-json/wp/v2/posts?per_page=100&_fields=link,title,date
+    access: open
+    scrape:
+      format: wp_json
+      select: 'a'
+      url_attr: href
+      period_from: text
+      include: 'carta|comentario|cartera|vídeo anual'
+    overrides:
+      - {match: "carta-semestral-2026", period: "1S 2026"}
+      - {match: "cartera-2t-2025", title: "Cartera 2T 2025"}
+      - {match: "/4t-2024/", title: "Vídeo anual 2024 y avance 2025"}
+
+  - id: buyandhold
+    name: Equipo de inversión
+    firm: Buy & Hold
+    style: "Value con mezcla de bolsa y renta fija, y una gestión que busca proteger el capital en las caídas."
+    why: "Buy & Hold escribe dos cartas al año en las que explica por qué tiene cada activo, incluida la parte de renta fija."
+    best_for: "Inversores que buscan fondos mixtos con mentalidad value."
+    take_label: "Por qué los leo"
+    letters_page: https://www.buyandhold.es/category/cartas_semestrales/
+    access: open
+    scrape:
+      select: 'a[href*="arta"]'
+      url_attr: href
+      period_from: text
+      exclude: 'analisis|category|/en/'
+      archive_pages:
+        - https://www.buyandhold.es/category/cartas_semestrales/page/2/
+        - https://www.buyandhold.es/category/cartas_semestrales/page/3/
+    overrides:
+      - {match: "Febrero-2026", period: "2S 2025", title: "Carta de febrero de 2026"}
+      - {match: "Carta-II-Semestre-2022", period: "2S 2022"}

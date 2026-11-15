@@ -32,6 +32,11 @@ def make(year, part):
 _ORDW = r"(1|2|3|4|primer|primero|segundo|tercer|tercero|cuarto)(?:er|ero|o|º|ª|°)?"
 # Ordered from most to least specific. Each returns (year, part).
 _PATTERNS = [
+    # Roman: Carta II Semestre 2024 · I trimestre 2023
+    (r"\b(i{1,3}|iv)[\s_\-]+(trimestre|semestre)\D{0,12}(20\d\d|19\d\d)",
+     lambda m: (m[3], ("Q" if m[2] == "trimestre" else "H") + str({"i": 1, "ii": 2, "iii": 3, "iv": 4}[m[1]]))),
+    # 2Sem-2019
+    (r"(?<![\w])([12])\s?sem[\s_\-]*(20\d\d)", lambda m: (m[2], f"H{m[1]}")),
     # Spanish: 1T 2024 · 1T24 · T1 2024 · 1er trimestre 2024 · tercer trimestre de 2024 · 2º semestre 2023
     (_ORDW + r"[\s_\-]*trimestre\D{0,12}(20\d\d|19\d\d)", lambda m: (m[2], f"Q{_ORD[m[1]]}")),
     (_ORDW + r"[\s_\-]*semestre\D{0,12}(20\d\d|19\d\d)", lambda m: (m[2], f"H{_ORD[m[1]]}")),
@@ -88,7 +93,7 @@ def parse(text, fallback_year=None):
     m = re.search(r"\bq([1-4])\b", s)
     if m and fallback_year:
         return make(fallback_year, f"Q{m[1]}")
-    m = re.search(r"\b(20\d\d|19\d\d)\b", s)
+    m = re.search(r"(?<!\d)(20\d\d|19\d\d)(?!\d)", s)
     if m:
         return make(m[1], "Annual")
     return None
