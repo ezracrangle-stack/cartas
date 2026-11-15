@@ -19,7 +19,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python scripts/probe.py ${{ inputs.pages }}
+      - env:
+          PAGES: ${{ inputs.pages }}
+        run: python scripts/probe.py $PAGES
       - name: Save fixtures on the probe branch
         run: |
           git config user.name  "cartas-bot"
