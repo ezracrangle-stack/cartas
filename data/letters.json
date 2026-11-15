@@ -4344,5 +4344,603 @@
    "source": "auto",
    "backfill": true
   }
- ]
+ ],
+ "icaria": [
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2026/04/Icaria_Renta_Carta_Inaugural.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": "Carta inaugural · Icaria Renta FIL",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.myinvestor.es/public/investment/carta_segundo_semestre_2025_cartera_permanente.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H2",
+    "label": "2S 2025",
+    "sort": 202512
+   },
+   "title": "2S 2025 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2025/08/Icaria_Patrimonio_1er_semestre_2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "1S 2025",
+    "sort": 202506
+   },
+   "title": "1S 2025 · Icaria Patrimonio FIL",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.myinvestor.es/public/investment/carta_primer_semestre_2025_cartera_permanente.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "1S 2025",
+    "sort": 202506
+   },
+   "title": "1S 2025 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.myinvestor.es/public/investment/carta_segundo_semestre_2024_cartera_permanente.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H2",
+    "label": "2S 2024",
+    "sort": 202412
+   },
+   "title": "2S 2024 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://drive.google.com/file/d/1qrmN6kBKzzQOt_MKn8oRmOS19LuuiicP/view?usp=sharing",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "1S 2024",
+    "sort": 202406
+   },
+   "title": "1S 2024 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.myinvestor.es/public/investment/carta_diciembre_2023_cartera_permanente.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": "4T 2023 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.myinvestor.es/public/investment/carta_anual_2023_cartera_permanente.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": "3T 2023 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://drive.google.com/file/d/19sP10AbJmgO_mS3QoTChLDPvVssy4ONB/view?usp=sharing",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": "2T 2023 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://drive.google.com/file/d/19rg7skuKyENl4qBHwMnWttLsgWukpfDf/view?usp=share_link",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": "4T 2022 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://andbank.es/boutiquehub/wp-content/uploads/2023/01/Icaria_Dinamico_4Q_2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": "4T 2022 · Icaria Dinámico",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://drive.google.com/file/d/1BmH4oSf_XAzz4ZVR8O-WtuiFsXl1HjJV/view",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": "3T 2022 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://drive.google.com/file/d/1laUUmpb7BgZqS8FNiLJIahOCsjG5P25O/view",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": "2T 2022 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://drive.google.com/file/d/10QcyH54AsNxEVsO9HccF00qT0fUp_-EW/view",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": "1T 2022 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://drive.google.com/file/d/10Hvd4Rw41hKVRJoAYLzNnu9JxIs4AYI8/view",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "3T 2021",
+    "sort": 202109
+   },
+   "title": "3T 2021 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://drive.google.com/file/d/13crVg2vx0M7-ocmySy4vbGLRbnNBMlO5/view",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "2T 2021",
+    "sort": 202106
+   },
+   "title": "2T 2021 · Cartera Permanente (MyInvestor)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "santalucia": [
+  {
+   "url": "https://www.santaluciaam.es/cartas-trimestrales/carta-trimestral-2026-q2/",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.santaluciaam.es/cartas-trimestrales/carta-trimestral-2026-q1",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.santaluciaam.es/cartas-trimestrales/carta-trimestral-2025-q4",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.santaluciaam.es/cartas-trimestrales/carta-trimestral-2025-q3",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.santaluciaam.es/cartas-trimestrales/carta-trimestral-2025-q2",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.santaluciaam.es/cartas-trimestrales/carta-trimestral-2025-q1",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "magallanes": [
+  {
+   "url": "https://magallanesvalue.com/wp-content/uploads/MAGALLANES-CARTA-3T26.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://magallanesvalue.com/wp-content/uploads/MAGALLANES-CARTA-2T26.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://magallanesvalue.com/wp-content/uploads/MAGALLANES-CARTA-1T26.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://magallanesvalue.com/wp-content/uploads/MAGALLANES-CARTA-4T25.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://magallanesvalue.com/wp-content/uploads/MAGALLANES-CARTA-3T25.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "truevalue": [
+  {
+   "url": "https://truevalue.es/wp-content/uploads/2021/07/Carta_Q2_2021.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "2T 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://truevalue.es/wp-content/uploads/2021/04/Carta_Q1_2021.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "1T 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://truevalue.es/wp-content/uploads/2021/02/Carta_Q4_2020.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "4T 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://truevalue.es/wp-content/uploads/2020/10/Carta_Q3_2020.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "3T 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://truevalue.es/wp-content/uploads/2020/08/Carta_Q2_2020.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "2T 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://truevalue.es/wp-content/uploads/2020/06/Carta_Q1_2020.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "1T 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "cross": [
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2026/11/Carta_3T26_Millennial.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2026/08/Carta-2T26-Millennial-1.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2026/05/Carta-1T26-Millennial.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2026/02/Carta-4T25-Millennial.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2025/10/Carta-3T25-Millennial.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2025/08/Carta-2T25-Millennial.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2025/05/Carta-1T25-Millennial.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2025/04/Carta-4T24-Millennial.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crosscapital.es/millennial/wp-content/uploads/2023/08/Carta-1S23-Millennial.pdf",
+   "period": {
+    "year": 2023,
+    "part": "H1",
+    "label": "1S 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "gb-opportunity": [
+  {
+   "url": "https://www.gbopportunity.com/_files/ugd/bc1516_2aa8acb5d0b54fcdad3083787dabff23.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.gbopportunity.com/_files/ugd/bc1516_3b55dbff039443c6bf48c55ab7c19530.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.gbopportunity.com/_files/ugd/bc1516_80d063dd1fb948cb81da82ea4bf539d6.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "panza": []
 }

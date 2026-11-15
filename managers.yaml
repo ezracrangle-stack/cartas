@@ -283,3 +283,100 @@ managers:
     overrides:
       - {match: "Febrero-2026", period: "2S 2025", title: "Carta de febrero de 2026"}
       - {match: "Carta-II-Semestre-2022", period: "2S 2022"}
+
+  - id: icaria
+    name: Carlos Santiso
+    firm: Icaria Capital
+    style: "Carteras para conservar patrimonio: la Cartera Permanente, renta fija y fondos de inversión libre."
+    why: "Carlos explica con números cómo construir una cartera que aguante cualquier escenario, sin depender de acertar con el mercado."
+    best_for: "Inversores que buscan proteger su patrimonio a largo plazo."
+    letters_page: https://www.icariacapital.es/cartas-trimestrales
+    access: open
+    scrape:
+      attr_json: {select: "cartas-grid", attr: items, url: u, text: t, extra: s, type: y}
+      select: 'a[data-type="semestral"], a[data-type="trimestral"], a[data-type="inaugural"]'
+      url_attr: href
+      period_from: text
+    overrides:
+      - {match: "cartera_permanente|drive\\.google", title: "{label} · Cartera Permanente (MyInvestor)"}
+      - {match: "Icaria_Patrimonio", title: "{label} · Icaria Patrimonio FIL"}
+      - {match: "Icaria_Dinamico_4Q_2022", period: "4T 2022", title: "{label} · Icaria Dinámico"}
+      - {match: "Carta_Inaugural", title: "Carta inaugural · Icaria Renta FIL"}
+
+  - id: santalucia
+    name: Equipo de inversión
+    firm: Santalucía Asset Management
+    style: "Value en bolsa española y europea, dentro de una gestora de un grupo asegurador."
+    why: "Santalucía AM escribe cartas trimestrales claras sobre qué movió la cartera y qué esperan de cada empresa."
+    best_for: "Inversores en bolsa española y europea."
+    take_label: "Por qué los leo"
+    letters_page: https://www.santaluciaam.es/cartas-trimestrales/
+    access: open
+    scrape:
+      select: 'a[href*="carta-trimestral-"]'
+      url_attr: href
+      period_from: url
+
+  - id: magallanes
+    name: Iván Martín
+    firm: Magallanes Value Investors
+    style: "Value en Europa y la península ibérica, con mucho peso en empresas pequeñas y medianas."
+    why: "Iván escribe cartas directas sobre por qué compra lo que nadie quiere, y cada carta viene con un podcast en el que la comenta."
+    best_for: "Inversores en small caps europeas e ibéricas."
+    letters_page: https://magallanesvalue.com/noticias/
+    access: open
+    scrape:
+      select: 'a[href*="MAGALLANES-CARTA"]'
+      url_attr: href
+      period_from: url
+      partial_page: true
+
+  - id: truevalue
+    name: Alejandro Estebaranz
+    firm: True Value
+    style: "Value en empresas de calidad y crecimiento de todo el mundo, sobre todo pequeñas."
+    why: "Alejandro se hizo un nombre con uno de los fondos más rentables de España. En sus cartas explica cómo encuentra empresas pequeñas que pueden crecer mucho."
+    best_for: "Inversores en small caps de crecimiento."
+    letters_page: https://truevalue.es/cartas-trimestrales/
+    access: open
+    scrape:
+      select: 'a[href*="/Carta_Q"]'
+      url_attr: href
+      period_from: url
+
+  - id: cross
+    name: Munesh Melwani
+    firm: Cross Capital (Millennial Fund)
+    style: "Empresas de calidad ligadas a las tendencias de consumo y tecnología de las nuevas generaciones."
+    why: "Munesh explica cada trimestre las tendencias de largo plazo detrás de su cartera y cómo las convierte en posiciones concretas."
+    best_for: "Inversores en tendencias de largo plazo."
+    letters_page: https://www.crosscapital.es/millennial/wp-json/wp/v2/media?search=carta&per_page=100&_fields=source_url,title,date
+    access: open
+    scrape:
+      format: wp_json
+      select: 'a'
+      url_attr: href
+      period_from: url
+
+  - id: gb-opportunity
+    name: Javier Caballero
+    firm: Gestión Boutique VI Opportunity
+    style: "Value concentrado en empresas que el mercado no valora bien."
+    why: "Javier explica en detalle cada idea de la cartera y por qué cree que el mercado la tiene mal valorada."
+    best_for: "Inversores en ideas concentradas."
+    letters_page: https://www.gbopportunity.com/cartas-a-inversores
+    access: open
+    scrape:
+      select: 'a[href*="/_files/ugd/"]'
+      url_attr: href
+      period_from: text
+
+  - id: panza
+    name: Beltrán de la Lastra
+    firm: Panza Capital
+    style: "Value con mirada de largo plazo en empresas europeas y globales, fundada por el antiguo director de inversiones de Bestinver."
+    why: "Beltrán dirigió las inversiones de Bestinver antes de fundar Panza. Sus cartas cuentan cómo construye una cartera desde cero con su propia gestora."
+    best_for: "Inversores que siguen la escuela value española."
+    letters_page: https://panzacapital.com/
+    latest_url: https://panzacapital.com/wp-content/uploads/panza-carta-trimestral.pdf
+    access: latest
