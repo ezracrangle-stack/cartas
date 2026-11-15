@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-15T22:49:29+00:00",
+ "last_run": "2026-11-15T23:02:43+00:00",
  "managers": {
   "cobas": {
    "status": "ok",
@@ -74,6 +74,40 @@
   "buyandhold": {
    "status": "ok",
    "found_on_page": 5,
+   "new": 0
+  },
+  "icaria": {
+   "status": "ok",
+   "found_on_page": 16,
+   "new": 0
+  },
+  "santalucia": {
+   "status": "ok",
+   "found_on_page": 6,
+   "new": 0
+  },
+  "magallanes": {
+   "status": "ok",
+   "found_on_page": 5,
+   "new": 0
+  },
+  "truevalue": {
+   "status": "ok",
+   "found_on_page": 6,
+   "new": 0
+  },
+  "cross": {
+   "status": "ok",
+   "found_on_page": 9,
+   "new": 0
+  },
+  "gb-opportunity": {
+   "status": "ok",
+   "found_on_page": 3,
+   "new": 0
+  },
+  "panza": {
+   "status": "manual",
    "new": 0
   }
  }
