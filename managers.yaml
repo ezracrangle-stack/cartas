@@ -481,14 +481,3 @@ managers:
       - {period: "2024", url: "https://gabcasla.substack.com/p/analisis-2024-sigma-internacional", title: "Análisis {label} de los dos fondos"}
       - {period: "2023", url: "https://gabcasla.substack.com/p/analisis-2023-sigma-internacional", title: "Análisis {label} de los dos fondos"}
 
-  - id: argos
-    name: Miguel de Juan Fernández
-    firm: Argos Capital
-    style: "Value global con mentalidad de largo plazo, en un fondo que lleva funcionando desde 2010."
-    why: "Miguel lleva más de quince años escribiendo una carta cada mes. Es un registro muy completo de cómo un gestor piensa durante todo un ciclo."
-    best_for: "Inversores que quieren seguir a un gestor mes a mes."
-    letters_page: https://argos.page.gd/cartas.html
-    latest_url: https://argos.page.gd/cartas.html
-    access: latest
-    access_note: "Miguel publica más de 190 cartas mensuales, desde 2010, en la web del fondo. La web no deja que un robot las lea, así que el enlace lleva directo a su archivo."
-    button_text: "Ir al archivo de cartas"
