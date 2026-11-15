@@ -134,13 +134,32 @@ def _wp_json(text):
     """A WordPress posts API answer turned into plain links, so the usual rules apply."""
     import html as h
     items = json.loads(text)
-    return "".join(f'<a href="{h.escape(x["link"])}">{h.escape(h.unescape(x["title"]["rendered"]))}</a>\n'
-                   for x in items)
+    return "".join(f'<a href="{h.escape(x.get("link") or x.get("source_url"))}">'
+                   f'{h.escape(h.unescape(x["title"]["rendered"]))}</a>\n' for x in items)
+
+
+def _attr_json(html, cfg):
+    """Links kept as JSON inside an HTML attribute (Wix custom elements such as <cartas-grid items="[...]">).
+    attr_json: {select, attr, url, text, extra, type}; each item becomes <a data-type=...>."""
+    import html as h
+    spec = cfg["attr_json"]
+    out = []
+    for el in BeautifulSoup(html, "html.parser").select(spec["select"]):
+        for x in json.loads(el.get(spec["attr"], "[]")):
+            text = str(x.get(spec["text"], ""))
+            extra = str(x.get(spec.get("extra", ""), "")) if spec.get("extra") else ""
+            if extra and not re.search(r"(19|20)\d\d", text):
+                text = f"{text} {extra}"
+            out.append(f'<a href="{h.escape(str(x.get(spec["url"], "")))}" '
+                       f'data-type="{h.escape(str(x.get(spec.get("type", ""), "")))}">{h.escape(text)}</a>')
+    return "\n".join(out)
 
 
 def find_letters(html, page_url, cfg):
     if cfg.get("format") == "wp_json":
         html = _wp_json(html)
+    elif cfg.get("attr_json"):
+        html = _attr_json(html, cfg)
     soup = BeautifulSoup(html, "html.parser")
     url_attr = cfg.get("url_attr", "href")
     include = re.compile(cfg["include"], re.I) if cfg.get("include") else None
