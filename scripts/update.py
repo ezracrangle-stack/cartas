@@ -276,13 +276,22 @@ def main():
                 else:
                     html, final_url = fetcher.get(mid, m["letters_page"])
                     found = find_letters(html, final_url, cfg)
+                    # more_pages: other pages checked every week (a second fund, page 2 of a list).
+                    # archive_pages: older pages that don't change, read only the first time.
+                    extra = list(cfg.get("more_pages") or [])
+                    if first_time:
+                        extra += cfg.get("archive_pages") or []
+                    for i, page in enumerate(extra, 2):
+                        h, fu = fetcher.get(f"{mid}-{i}", page)
+                        urls = {f["url"] for f in found}
+                        found += [f for f in find_letters(h, fu, cfg) if f["url"] not in urls]
                 if not found:
                     raise RuntimeError("the page loaded but no letters were found (its layout may have changed)")
                 prev_auto = [x for x in known if x.get("source") == "auto"]
                 still_there = {f["url"] for f in found}
                 missing = [x for x in prev_auto if x["url"] not in still_there]
                 # partial_page: the page shows only the newest letters (older ones are on page 2, 3...)
-                if cfg.get("source") != "edgar" and not cfg.get("partial_page") and prev_auto and len(missing) > len(prev_auto) / 2:
+                if cfg.get("source") != "edgar" and not cfg.get("partial_page") and not cfg.get("archive_pages") and prev_auto and len(missing) > len(prev_auto) / 2:
                     problems.append((m, f"{len(missing)} of {len(prev_auto)} letters we had are no longer on the page. "
                                         "They stay on the site, but the page may have moved or changed."))
                 for f in found:
