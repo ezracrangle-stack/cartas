@@ -24,7 +24,7 @@ MENTIONS_FILE = DATA / "mentions.json"
 
 # Managers whose letters are read for the company index. Add ids here as
 # they are checked; the weekly run then reads their new letters.
-INDEXED = []  # gestores ya leídos para el índice de empresas
+INDEXED = ["cobas", "azvalor", "horos", "equam", "castanar", "bestinver", "salmon-mundi", "metagestion", "abaco", "dltv", "numantia", "invexcel", "brightgate", "only-compounders", "buyandhold", "icaria", "santalucia", "magallanes", "truevalue", "cross", "gb-opportunity", "panza", "azagala", "attitude", "gamma"]
 # Not indexed: semper-augustus (its file host's robots.txt forbids robots) and
 # brookfield (bn.brookfield.com answers 403 to automated visits) and crossroads
 # (letters shown in an Adobe viewer, with no file a robot can open).
@@ -45,11 +45,22 @@ q1 q2 q3 q4 h1 h2 fy ytd usd gbp eur us uk eu
 mr mrs ms dr inc ltd plc corp co llc lp sa ag nv se group
 fund funds partner partners partnership portfolio investor investors shareholder shareholders
 letter annual semi report table figure chart source note notes page appendix total year years
+el la lo los las un una unos unas y e o u ni de del al en con por para sin sobre entre desde hasta hacia
+que como cuando donde cuyo este esta estos estas ese esa esos esas eso esto aquel aquella
+nuestro nuestra nuestros nuestras su sus mi mis tu tus le les nos se si sí más menos muy también
+pero aunque porque mientras durante tras ante bajo contra según además así sin embargo por tanto
+año años trimestre semestre carta cartas fondo fondos cartera carteras inversión inversiones inversor
+inversores partícipe partícipes accionista accionistas rentabilidad valor liquidativo patrimonio
+enero febrero marzo abril mayo junio julio agosto septiembre setiembre octubre noviembre diciembre
+lunes martes miércoles jueves viernes sábado domingo
+primer primero primera segundo segunda tercer tercero tercera cuarto cuarta último última
+uno dos tres cuatro cinco seis siete ocho nueve diez
+tabla gráfico fuente nota notas página anexo total índice
 """.split())
 
 UP = "A-ZÀ-ÖØ-Þ"
 WORD = rf"[{UP}][\w'’\.\-&]*[\w]|[{UP}]"
-LINK = r"(?:&|of|de|du|la|le|der|van|von)"
+LINK = r"(?:&|of|de|del|du|la|le|der|van|von|y)"
 PHRASE = re.compile(rf"\b(?:{WORD})(?:\s+(?:{LINK}\s+)?(?:{WORD})){{0,4}}")
 
 
