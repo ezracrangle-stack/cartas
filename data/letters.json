@@ -1,1 +1,1910 @@
-{}
+{
+ "cobas": [
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-primer-semestre-2026/",
+   "period": {
+    "year": 2026,
+    "part": "H1",
+    "label": "1S 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-semestre-2025/",
+   "period": {
+    "year": 2025,
+    "part": "H2",
+    "label": "2S 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-primer-semestre-2025/",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "1S 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-semestre-2024/",
+   "period": {
+    "year": 2024,
+    "part": "H2",
+    "label": "2S 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/ano-2024/comentario-primer-semestre-2024/",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "1S 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-semestre-2023/",
+   "period": {
+    "year": 2023,
+    "part": "H2",
+    "label": "2S 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/nota-de-inversion-octubre-2023/",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": "Nota de inversión (4T 2023)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-primer-semestre-2023/",
+   "period": {
+    "year": 2023,
+    "part": "H1",
+    "label": "1S 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-cuarto-trimestre-2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-tercer-trimestre-2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-trimestre-2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/2022/comentario-primer-trimestre-2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-cuarto-trimestre-2021/",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "4T 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-tercer-trimestre-2021/",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "3T 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-trimestre-2021/",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "2T 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-primer-trimestre-2021/",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "1T 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-cuarto-trimestre-2020/",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "4T 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-tercer-trimestre-2020/",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "3T 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-trimestre-2020/",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "2T 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-primer-trimestre-2020/",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "1T 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-cuarto-trimestre-2019/",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "4T 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-tercer-trimestre-2019/",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "3T 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-trimestre-2019/",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "2T 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-primer-trimestre-2019/",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "1T 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-cuarto-trimestre-2018/",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "4T 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-tercer-trimestre-2018/",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "3T 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-trimestre-2018/",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "2T 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-primer-trimestre-2018/",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "1T 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-cuarto-trimestre-2017/",
+   "period": {
+    "year": 2017,
+    "part": "Q4",
+    "label": "4T 2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-tercer-trimestre-2017/",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "3T 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-segundo-trimestre-2017/",
+   "period": {
+    "year": 2017,
+    "part": "Q2",
+    "label": "2T 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.cobasam.com/comentario-trimestral/comentario-primer-trimestre-2017/",
+   "period": {
+    "year": 2017,
+    "part": "Q1",
+    "label": "1T 2017",
+    "sort": 201703
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "horos": [
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-3t26/",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-2t26/",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-1t26/",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-4t25/",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-3t25/",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-2t25/",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-1t25/",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-4t24/",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-3t24/",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-horos-2t24/",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-1t24/",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-4t23/",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-3t23/",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-2t23/",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-1t23/",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-4t22/",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-3t22/",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-2t22/",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-1t22/",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-4t21/",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "4T 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-3t21/",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "3T 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-2t21/",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "2T 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-1t21/",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "1T 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-4t20/",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "4T 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-3t20/",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "3T 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-2t20/",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "2T 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-1t20/",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "1T 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-4t19/",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "4T 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-3t19/",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "3T 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-2t19/",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "2T 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-1t19/",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "1T 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-anual-a-los-inversores-4q18/",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "4T 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-3q18/",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "3T 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://horosam.com/carta-a-los-inversores-2t18/",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "2T 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "equam": [
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-3T-2026.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-2T-2026.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-1T2026.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/4T2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-3T2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-2T2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-1T2025-.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-4T-2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-3T2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/2T2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-1T2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/4T2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/3T2023FINAL.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-2T-2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/1T-2023-FINAL.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-4T2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/10/EQUAM3T-2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/EQUAM-Capital-2T-2022-FINAL.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/2022-1T-Equam.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/2021-completo.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Annual",
+    "label": "2021",
+    "sort": 202112
+   },
+   "title": "Cartas de 2021 (recopilación)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/2020-completo.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Annual",
+    "label": "2020",
+    "sort": 202012
+   },
+   "title": "Cartas de 2020 (recopilación)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/2019-completo.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Annual",
+    "label": "2019",
+    "sort": 201912
+   },
+   "title": "Cartas de 2019 (recopilación)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/T2018.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Annual",
+    "label": "2018",
+    "sort": 201812
+   },
+   "title": "Cartas de 2018 (recopilación)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/T2017.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Annual",
+    "label": "2017",
+    "sort": 201712
+   },
+   "title": "Cartas de 2017 (recopilación)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/T2016.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Annual",
+    "label": "2016",
+    "sort": 201612
+   },
+   "title": "Cartas de 2016 (recopilación)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://equamcapital.com/wp-content/uploads/2022/06/T2015.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Annual",
+    "label": "2015",
+    "sort": 201512
+   },
+   "title": "Cartas de 2015 (recopilación)",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "castanar": [
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2026/10/Castanar-IF-2026-Q3.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2026/07/Castanar-IF-2026-Q2.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "2T 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2026/04/Castanar-IF-2026-Q1.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "1T 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2026/01/Castanar-IF-2025-Q4.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "4T 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2025/10/Castanar-IF-2025-Q3.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "3T 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2025/07/Castanar-IF-2025-Q2.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "2T 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2025/04/Castanar-IF-2025-Q1.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "1T 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2025/01/Castanar-IF-2024-Q4.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "4T 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2024/10/Castanar-IF-2024-Q3.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "3T 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2024/07/Castanar-IF-2024-Q2.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "2T 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2024/04/Castanar-IF-2024-Q1.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "1T 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2024/01/Castanar-IF-2023-Q4.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "4T 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2023/10/Castanar-IF-2023-Q3.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "3T 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2025/07/Castanar-IF-2023-Q2.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "2T 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2023/04/Castanar-IF-2023-Q1.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "1T 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2023/01/Castanar-IF-2022-Q4.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://castanarfund.com/wp-content/uploads/2022/10/Castanar-IF-2022-Q3.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "azvalor": [
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-a-inversores-1s2026/",
+   "period": {
+    "year": 2026,
+    "part": "H1",
+    "label": "1S 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-a-inversores-2s2025/",
+   "period": {
+    "year": 2025,
+    "part": "H2",
+    "label": "2S 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-a-inversores-1s2025/",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "1S 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-a-inversores-2s2024/",
+   "period": {
+    "year": 2024,
+    "part": "H2",
+    "label": "2S 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-a-inversores-1s2024/",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "1S 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-a-inversores-2s2023/",
+   "period": {
+    "year": 2023,
+    "part": "H2",
+    "label": "2S 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-a-inversores-1s2023/",
+   "period": {
+    "year": 2023,
+    "part": "H1",
+    "label": "1S 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-4t2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-4t2022-2/",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "4T 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-3t2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "3T 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-2t-2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "2T 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-1t-2022/",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "1T 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-4t2021/",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "4T 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-3t-2021/",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "3T 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-2t-2021/",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "2T 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-1t-2021/",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "1T 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-4t-2020/",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "4T 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-3t2020/",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "3T 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-2t2020/",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "2T 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-1t2020/",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "1T 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-4t2019/",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "4T 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-3t2019/",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "3T 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-2t2019/",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "2T 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-1t2019/",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "1T 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-4t2018/",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "4T 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-3t2018/",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "3T 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-2t2018/",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "2T 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-1t2018/",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "1T 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-4t2017/",
+   "period": {
+    "year": 2017,
+    "part": "Q4",
+    "label": "4T 2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-3t2017/",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "3T 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-2t2017/",
+   "period": {
+    "year": 2017,
+    "part": "Q2",
+    "label": "2T 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-1t2017/",
+   "period": {
+    "year": 2017,
+    "part": "Q1",
+    "label": "1T 2017",
+    "sort": 201703
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-a-cierre-de-2016/",
+   "period": {
+    "year": 2016,
+    "part": "Annual",
+    "label": "2016",
+    "sort": 201612
+   },
+   "title": "Carta a cierre de 2016",
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-4t2016/",
+   "period": {
+    "year": 2016,
+    "part": "Q4",
+    "label": "4T 2016",
+    "sort": 201612
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-3t2016/",
+   "period": {
+    "year": 2016,
+    "part": "Q3",
+    "label": "3T 2016",
+    "sort": 201609
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-2t2016/",
+   "period": {
+    "year": 2016,
+    "part": "Q2",
+    "label": "2T 2016",
+    "sort": 201606
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.azvalor.com/anuncios-y-comunicados/carta-trimestral-1t2016/",
+   "period": {
+    "year": 2016,
+    "part": "Q1",
+    "label": "1T 2016",
+    "sort": 201603
+   },
+   "title": null,
+   "first_seen": "2026-11-15",
+   "source": "auto",
+   "backfill": true
+  }
+ ]
+}

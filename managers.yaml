@@ -1,2 +1,101 @@
 # Gestores del sitio en español. Mismo formato que letters.ezrasnotes.com.
-managers: []
+# style / why / best_for: textos del sitio, en español.
+# scrape.more_pages: otras páginas que se revisan cada semana.
+# scrape.archive_pages: páginas antiguas que solo se leen la primera vez.
+managers:
+  - id: cobas
+    name: Francisco García Paramés
+    firm: Cobas Asset Management
+    style: "Value contrarian y global: compra empresas baratas que el mercado ha dejado de lado, aunque tarden años en dar la razón."
+    why: "Paramés lleva más de 30 años invirtiendo y explica sin rodeos por qué tiene lo que tiene, incluso cuando el mercado lleva tiempo en contra. Sus cartas son una clase sobre paciencia y sobre cómo separar el precio del valor."
+    best_for: "Inversores value que aguantan años de ir contra la corriente."
+    letters_page: https://www.cobasam.com/categoria/comentario-trimestral/
+    access: open
+    scrape:
+      select: 'a[href*="/comentario-trimestral/"]'
+      url_attr: href
+      period_from: text
+      exclude: '/categoria/'
+      archive_pages:
+        - https://www.cobasam.com/categoria/comentario-trimestral/page/2/
+        - https://www.cobasam.com/categoria/comentario-trimestral/page/3/
+    overrides:
+      - match: "nota-de-inversion"
+        title: "Nota de inversión ({label})"
+
+  - id: azvalor
+    name: Álvaro Guzmán de Lázaro
+    firm: Azvalor Asset Management
+    style: "Value con mucho peso en materias primas, energía y minería, compradas cuando nadie las quiere."
+    why: "Álvaro y Fernando Bernad explican con detalle por qué apuestan por sectores que el resto evita, con números del ciclo y de la oferta. Es una forma de entender el value aplicado a negocios cíclicos."
+    best_for: "Inversores interesados en el ciclo de las materias primas."
+    letters_page: https://www.azvalor.com/categorias_anuncios/cartas-a-inversores/
+    access: open
+    scrape:
+      select: 'a[href*="/anuncios-y-comunicados/carta"]'
+      url_attr: href
+      period_from: text
+      archive_pages:
+        - https://www.azvalor.com/categorias_anuncios/cartas-a-inversores/page/2/
+        - https://www.azvalor.com/categorias_anuncios/cartas-a-inversores/page/3/
+        - https://www.azvalor.com/categorias_anuncios/cartas-a-inversores/page/4/
+    overrides:
+      - match: "cierre-de-2016"
+        title: "Carta a cierre de 2016"
+
+  - id: horos
+    name: Javier Ruiz
+    firm: Horos Asset Management
+    style: "Value global en empresas poco seguidas, con una parte de la cartera en situaciones especiales y en Asia."
+    why: "Javier y su equipo escriben cartas largas en las que repasan cada idea nueva, por qué la compraron y qué esperan de ella. También son honestos con los errores."
+    best_for: "Inversores que buscan ideas fuera de los índices."
+    letters_page: https://horosam.com/articulos/cartas-al-inversor/
+    access: open
+    scrape:
+      select: 'a[href*="horosam.com/carta"]'
+      url_attr: href
+      period_from: text
+      archive_pages:
+        - https://horosam.com/articulos/cartas-al-inversor/page/2/
+        - https://horosam.com/articulos/cartas-al-inversor/page/3/
+        - https://horosam.com/articulos/cartas-al-inversor/page/4/
+        - https://horosam.com/articulos/cartas-al-inversor/page/5/
+        - https://horosam.com/articulos/cartas-al-inversor/page/6/
+        - https://horosam.com/articulos/cartas-al-inversor/page/7/
+        - https://horosam.com/articulos/cartas-al-inversor/page/8/
+
+  - id: equam
+    name: Alejandro Muñoz y José Antonio Larraz
+    firm: Equam Capital
+    style: "Small caps de calidad compradas con descuento, en un fondo global y concentrado."
+    why: "Alejandro y José Antonio explican cada trimestre qué compraron y qué vendieron y por qué, con el detalle de alguien que habla con las empresas."
+    best_for: "Inversores en small caps de calidad."
+    take_label: "Por qué los leo"
+    letters_page: https://equamcapital.com/documentacion/
+    access: open
+    scrape:
+      select: 'a[href*="equamcapital.com/wp-content/uploads/"][href$=".pdf"]'
+      url_attr: href
+      period_from: url
+      include: '[1-4]t|t20|completo'
+      exclude: 'kiid|prospectus|nota|octubre2026|ficha'
+    overrides:
+      - {match: "/T2015\\.pdf", period: "2015", title: "Cartas de 2015 (recopilación)"}
+      - {match: "/T2016\\.pdf", period: "2016", title: "Cartas de 2016 (recopilación)"}
+      - {match: "/T2017\\.pdf", period: "2017", title: "Cartas de 2017 (recopilación)"}
+      - {match: "/T2018\\.pdf", period: "2018", title: "Cartas de 2018 (recopilación)"}
+      - {match: "completo", title: "Cartas de {label} (recopilación)"}
+      - {match: "EQUAM3T-2022", period: "3T 2022"}
+
+  - id: castanar
+    name: Jesús Sánchez León
+    firm: Castañar Investment Fund
+    style: "Value en empresas de calidad europeas y globales, con una cartera concentrada."
+    why: "Jesús cuenta en cada carta qué hace el negocio de cada empresa y cuánto cree que vale, sin tecnicismos de más."
+    best_for: "Inversores que empiezan a seguir a gestores value."
+    letters_page: https://castanarfund.com/informes/
+    access: open
+    scrape:
+      select: 'a[href*="Castanar-IF"][href$=".pdf"]'
+      url_attr: href
+      period_from: url
