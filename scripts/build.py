@@ -22,11 +22,7 @@ SITE_URL = "https://cartas.ezrasnotes.com"
 COMPANIES_PER_PAGE = 100
 HITS_PER_PAGE = 20
 TOP_COMPANIES = []  # vacío: las 10 más mencionadas
-SECTOR_ES = {"Information Technology": "Tecnología de la información", "Health Care": "Salud",
-             "Consumer Staples": "Consumo básico", "Consumer Discretionary": "Consumo discrecional",
-             "Financials": "Finanzas", "Industrials": "Industria", "Energy": "Energía",
-             "Materials": "Materiales", "Utilities": "Servicios públicos", "Real Estate": "Inmobiliario",
-             "Communication Services": "Servicios de comunicación"}
+SECTOR_ES = {}  # los sectores se muestran con su nombre GICS en inglés
 GA_ID = ""  # Google Analytics del sitio en español. Vacío = apagado.
 NEWSLETTER_URL = "https://www.ezrasnotes.com"
 SUBSCRIBE_URL = "https://www.ezrasnotes.com"
