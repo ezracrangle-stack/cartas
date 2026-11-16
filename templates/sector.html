@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ sec.name }}: empresas en las cartas{% if pager.num > 1 %} (página {{ pager.num }}){% endif %}{% endblock %}
-{% block description %}{{ sec.companies|length }} empresas del sector {{ sec.name|lower }} mencionadas en las cartas de los gestores value hispanos que leo.{% endblock %}
+{% block description %}{{ sec.companies|length }} empresas del sector {{ sec.name|lower }} mencionadas en las cartas de gestores value hispanos.{% endblock %}
 {% block main %}
 <p class="crumb"><a href="{{ root }}companies.html">&larr; Todas las empresas</a></p>
 <h1 class="page-title">{{ sec.name }}</h1>

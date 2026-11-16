@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}Empresas en las cartas{% if pager.num > 1 %} (página {{ pager.num }}){% endif %}{% endblock %}
-{% block description %}{{ total }} empresas mencionadas en {{ letters_read }} cartas de los gestores value hispanos que leo. Encuentra cada carta que habla de una empresa, enlazada a la fuente.{% endblock %}
+{% block description %}{{ total }} empresas mencionadas en {{ letters_read }} cartas de gestores value hispanos. Encuentra cada carta que habla de una empresa, enlazada a la fuente.{% endblock %}
 {% block main %}
 <h1 class="page-title">Empresas</h1>
 <p class="dek">{{ total }} empresas mencionadas en {{ letters_read }} cartas. Elige una para ver todas las cartas que hablan de ella, de la más reciente a la más antigua.</p>
