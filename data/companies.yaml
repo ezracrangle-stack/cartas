@@ -121,7 +121,7 @@ companies:
   - {name: BP, sector: Energy}
   - {name: ExxonMobil, aliases: [Exxon], sector: Energy}
   - {name: Anglo American, sector: Materials}
-  - {name: Rio Tinto, sector: Materials}
+  - {name: Rio Tinto, aliases: [Riotinto], sector: Materials}
   - {name: Centrica, sector: Utilities}
   - {name: Serco, sector: Industrials}
   - {name: Capita, sector: Industrials}
@@ -159,7 +159,7 @@ companies:
   - {name: Blackbaud, sector: Information Technology}
   - {name: Blackstone, sector: Financials}
   - {name: BlueLinx, aliases: [Bluelinx Holdings], sector: Industrials}
-  - {name: Booking Holdings, aliases: [Priceline, Bookings Holdings, Booking.com], sector: Consumer Discretionary}
+  - {name: Booking Holdings, aliases: [Priceline, Bookings Holdings, Booking.com, Booking], sector: Consumer Discretionary}
   - {name: ByteDance, aliases: [Bytedance, TikTok, Tiktok, Tik Tok, Douyin], sector: Communication Services}
   - {name: BYD, sector: Consumer Discretionary}
   - {name: Caesars Entertainment, aliases: [Caesars], sector: Consumer Discretionary}
@@ -245,7 +245,7 @@ companies:
   - {name: Linamar, sector: Consumer Discretionary}
   - {name: Lionsgate, sector: Communication Services}
   - {name: Liquidia, sector: Health Care}
-  - {name: Lithia Motors, sector: Consumer Discretionary}
+  - {name: Lithia Motors, aliases: [Lithia], sector: Consumer Discretionary}
   - {name: Lululemon, sector: Consumer Discretionary}
   - {name: Lyft, sector: Industrials}
   - {name: Macy's, aliases: [Macy], sector: Consumer Discretionary}
@@ -390,7 +390,7 @@ companies:
   - {name: Equinox Gold, sector: Materials}
   - {name: Etsy, sector: Consumer Discretionary}
   - {name: Expeditors, sector: Industrials}
-  - {name: Fairfax, sector: Financials}
+  - {name: Fairfax, aliases: [FairFax Financial, Fairfax Financial], sector: Financials}
   - {name: Fastenal, sector: Industrials}
   - {name: Fifth Third Bank, sector: Financials}
   - {name: Fiserv, sector: Financials}
@@ -425,7 +425,7 @@ companies:
   - {name: LKQ, sector: Consumer Discretionary}
   - {name: Lucara Diamond, aliases: [Lucara], sector: Materials}
   - {name: Lundin Mining, sector: Materials}
-  - {name: M&T Bank, sector: Financials}
+  - {name: M&T Bank, aliases: [M&T], sector: Financials}
   - {name: Maersk, sector: Industrials}
   - {name: Martin Marietta, sector: Materials}
   - {name: Masco, sector: Industrials}
@@ -691,7 +691,7 @@ companies:
   - {name: AJ Bell, sector: Financials}
   - {name: Aon, aliases: [AON], sector: Financials}
   - {name: Arrow Electronics, sector: Information Technology}
-  - {name: Asbury Automotive, aliases: [Asbury Auto], sector: Consumer Discretionary}
+  - {name: Asbury Automotive, aliases: [Asbury Auto, Asbury], sector: Consumer Discretionary}
   - {name: Babcock International, aliases: [Babcock], sector: Industrials}
   - {name: Bellway, sector: Consumer Discretionary}
   - {name: Beyond Meat, sector: Consumer Staples}
@@ -740,7 +740,7 @@ companies:
 
   - {name: Acciona, aliases: [Acciona Energía], sector: Industrials}
   - {name: Acerinox, sector: Materials}
-  - {name: AerCap, aliases: [AerCap Holdings, Aercap Holdings], sector: Industrials}
+  - {name: AerCap, aliases: [AerCap Holdings, Aercap Holdings, Aercap], sector: Industrials}
   - {name: Affiliated Managers Group, aliases: [Affiliated Managers], sector: Financials}
   - {name: Airbus, sector: Industrials}
   - {name: Ajisen China, aliases: [Ajisen China Holdings, Ajisen], sector: Consumer Discretionary}
@@ -798,7 +798,7 @@ companies:
   - {name: NagaCorp, sector: Consumer Discretionary}
   - {name: Naspers, sector: Consumer Discretionary}
   - {name: Naturgy, sector: Utilities}
-  - {name: The Navigator Company, aliases: [Navigator Company], sector: Materials}
+  - {name: The Navigator Company, aliases: [Navigator Company, Navigator, Navigator Portugal], sector: Materials}
   - {name: Neonode, sector: Information Technology}
   - {name: Noah Holdings, sector: Financials}
   - {name: Nordic Paper, sector: Materials}
@@ -884,6 +884,178 @@ companies:
   - {name: Victrex, sector: Materials}
   - {name: Bath & Body Works, aliases: [L Brands, Limited Brands], sector: Consumer Discretionary}
 
+  # Cartas en español (tanda 1)
+  - {name: Prosegur Cash, aliases: [Prosegur Cash España, Prosegur Cash Spain], sector: Industrials}
+  - {name: Allfunds, sector: Financials}
+  - {name: RHI Magnesita, aliases: [RHI], sector: Materials}
+  - {name: Mondadori, aliases: [Arnoldo Mondadori Editore, Mondadori Italia], sector: Communication Services}
+  - {name: DFS Furniture, sector: Consumer Discretionary}
+  - {name: Tubacex, sector: Materials}
+  - {name: Befesa, sector: Industrials}
+  - {name: Inchcape, sector: Consumer Discretionary}
+  - {name: Volkswagen, sector: Consumer Discretionary}
+  - {name: Bankinter, sector: Financials}
+  - {name: SeSa, aliases: [Sesa, SeSa S.p.A, SeSa Italy], sector: Information Technology}
+  - {name: Galp, sector: Energy}
+  - {name: AcadeMedia, aliases: [Academedia, AcadeMedia AB, AcadeMedia SEK, AcadeMedia Suecia], sector: Consumer Discretionary}
+  - {name: Origin Enterprises, sector: Consumer Staples}
+  - {name: ASML, sector: Information Technology}
+  - {name: Admiral, sector: Financials}
+  - {name: Headlam, sector: Industrials}
+  - {name: KLX Energy Services, aliases: [KLX Energy, KLXE, KLX], sector: Energy}
+  - {name: Mitie, aliases: [MITIE, MITIE Group], sector: Industrials}
+  - {name: Takkt, aliases: [TAKKT], sector: Industrials}
+  - {name: Hyundai, sector: Consumer Discretionary}
+  - {name: OHLA, aliases: [OHL], sector: Industrials}
+  - {name: DIA, sector: Consumer Staples}
+  - {name: ING, sector: Financials}
+  - {name: DNO, sector: Energy}
+  - {name: Azelis, sector: Industrials}
+  - {name: Cegedim, sector: Health Care}
+  - {name: Rieter, aliases: [Rieter Holding], sector: Industrials}
+  - {name: CIE Automotive, aliases: [Cie Automotive], sector: Consumer Discretionary}
+  - {name: XPO, aliases: [XPO Logistics], sector: Industrials}
+  - {name: Sprott Physical Uranium Trust, sector: Financials}
+  - {name: Logista, sector: Industrials}
+  - {name: ACS, sector: Industrials}
+  - {name: Nagarro, sector: Information Technology}
+  - {name: PBF Energy, aliases: [PBF], sector: Energy}
+  - {name: McCoy Global, aliases: [McCoy], sector: Energy}
+  - {name: Indra, aliases: [Indra Sistemas], sector: Information Technology}
+  - {name: Cementir, sector: Materials}
+  - {name: Orsero, sector: Consumer Staples}
+  - {name: Euronext, sector: Financials}
+  - {name: Mistras, sector: Industrials}
+  - {name: Repsol, sector: Energy}
+  - {name: Suncor, sector: Energy}
+  - {name: Alten, sector: Information Technology}
+  - {name: EnQuest, aliases: [Enquest], sector: Energy}
+  - {name: Ryman Healthcare, aliases: [Ryman], sector: Health Care}
+  - {name: Altri, sector: Materials}
+  - {name: CAF, sector: Industrials}
+  - {name: IMCD, sector: Industrials}
+  - {name: Elis, sector: Industrials}
+  - {name: Alliance Resource Partners, aliases: [Alliance Resource], sector: Energy}
+  - {name: Hornbach, sector: Consumer Discretionary}
+  - {name: Neurones, sector: Information Technology}
+  - {name: Wilh. Wilhelmsen, aliases: [Wilh Wilhelmsen, Wilhelmsen, Wilhelmsen Noruega, Wilhelmsen Norway], sector: Industrials}
+  - {name: Wallenius Wilhelmsen, aliases: [Wallenius], sector: Industrials}
+  - {name: Vopak, aliases: [Royal Vopak], sector: Energy}
+  - {name: Marlowe, sector: Industrials}
+  - {name: BBVA, sector: Financials}
+  - {name: Barclays, sector: Financials}
+  - {name: goeasy, aliases: [Goeasy], sector: Financials}
+  - {name: Enbridge, sector: Energy}
+  - {name: Eurofins Scientific, aliases: [Eurofins], sector: Health Care}
+  - {name: International Petroleum, sector: Energy}
+  - {name: Buenaventura, aliases: [Compañía de Minas Buenaventura], sector: Materials}
+  - {name: Cardlytics, sector: Communication Services}
+  - {name: Okea, sector: Energy}
+  - {name: Peabody, aliases: [Peabody Energy], sector: Energy}
+  - {name: FRP Holdings, sector: Real Estate}
+  - {name: Puig, aliases: [Puig Brands], sector: Consumer Staples}
+  - {name: Ferrovial, sector: Industrials}
+  - {name: Athabasca Oil, aliases: [Athabasca], sector: Energy}
+  - {name: MHP, sector: Consumer Staples}
+  - {name: District Metals, sector: Materials}
+  - {name: STEF, aliases: [Stef], sector: Industrials}
+  - {name: NRJ Group, aliases: [NRJ], sector: Communication Services}
+  - {name: Piaggio, aliases: [Piaggio Italy], sector: Consumer Discretionary}
+  - {name: Sarantis, sector: Consumer Staples}
+  - {name: Givaudan, sector: Materials}
+  - {name: Cellularline, sector: Consumer Discretionary}
+  - {name: Occidental Petroleum, aliases: [Occidental], sector: Energy}
+  - {name: Stabilus, sector: Industrials}
+  - {name: Edenred, sector: Financials}
+  - {name: Kinepolis, aliases: [Kinépolis], sector: Communication Services}
+  - {name: Aryzta, sector: Consumer Staples}
+  - {name: MBIA, sector: Financials}
+  - {name: Panoro Energy, aliases: [Panoro], sector: Energy}
+  - {name: Aena, sector: Industrials}
+  - {name: Coty, sector: Consumer Staples}
+  - {name: SS&C, sector: Information Technology}
+  - {name: Fairfax India, aliases: [FairFax India], sector: Financials}
+  - {name: Mota-Engil, aliases: [Mota Engil], sector: Industrials}
+  - {name: Tenaris, sector: Energy}
+  - {name: Endeavour Mining, sector: Materials}
+  - {name: DHT Holdings, sector: Energy}
+  - {name: Range Resources, sector: Energy}
+  - {name: Gold Fields, sector: Materials}
+  - {name: Patrick Industries, sector: Consumer Discretionary}
+  - {name: Genworth Financial, aliases: [Genworth], sector: Financials}
+  - {name: Garrett Motion, aliases: [Garrett], sector: Consumer Discretionary}
+  - {name: SLM, sector: Financials}
+  - {name: Intercos, sector: Consumer Staples}
+  - {name: Esprinet, sector: Information Technology}
+  - {name: Mutares, sector: Financials}
+  - {name: Arcus, sector: Consumer Staples}
+  - {name: Verisure, sector: Industrials}
+  - {name: Chargeurs, sector: Industrials}
+  - {name: Deutsche Pfandbriefbank, aliases: [PBB], sector: Financials}
+  - {name: Verisign, aliases: [VeriSign], sector: Information Technology}
+  - {name: Zeal Network, sector: Consumer Discretionary}
+  - {name: Ülker Bisküvi, aliases: [Ulker Biskuvi], sector: Consumer Staples}
+  - {name: Cementos Pacasmayo, sector: Materials}
+  - {name: Grifols, sector: Health Care}
+  - {name: Inditex, sector: Consumer Discretionary}
+  - {name: International Seaways, sector: Energy}
+  - {name: CF Industries, sector: Materials}
+  - {name: EZCORP, sector: Financials}
+  - {name: Green Brick Partners, aliases: [Green Brick], sector: Consumer Discretionary}
+  - {name: American Coastal, sector: Financials}
+  - {name: Textron, sector: Industrials}
+  - {name: North Media, sector: Communication Services}
+  - {name: Polyus, sector: Materials}
+  - {name: Imperial Metals, sector: Materials}
+  - {name: Prosafe, sector: Energy}
+  - {name: Brooge Energy, sector: Energy}
+  - {name: Enterprise Products, sector: Energy}
+  - {name: CVR Energy, sector: Energy}
+  - {name: Dr. Martens, aliases: [Martens], sector: Consumer Discretionary}
+  - {name: Burberry, sector: Consumer Discretionary}
+  - {name: Ecora Resources, aliases: [ECORA], sector: Materials}
+  - {name: Galaxy Digital, sector: Financials}
+  - {name: Fresenius, sector: Health Care}
+  - {name: Arch Capital, sector: Financials}
+  - {name: Atkore, sector: Industrials}
+  - {name: Molina Healthcare, aliases: [Molina], sector: Health Care}
+  - {name: Montana Aerospace, sector: Industrials}
+  - {name: W&T Offshore, sector: Energy}
+  - {name: Wizz Air, aliases: [Wizzair], sector: Industrials}
+  - {name: Safran, sector: Industrials}
+  - {name: Fluidra, sector: Industrials}
+  - {name: Haypp, sector: Consumer Staples}
+  - {name: Litigation Capital Management, sector: Financials}
+  - {name: Mapfre, sector: Financials}
+  - {name: B2Gold, sector: Materials}
+  - {name: AB InBev, sector: Consumer Staples}
+  - {name: TAV Airports, aliases: [TAV Airport], sector: Industrials}
+  - {name: Sartorius Stedim Biotech, aliases: [Sartorius], sector: Health Care}
+  - {name: Synopsys, sector: Information Technology}
+  - {name: Autodesk, sector: Information Technology}
+  - {name: Thermo Fisher, sector: Health Care}
+  - {name: Figma, sector: Information Technology}
+  - {name: Admicom, sector: Information Technology}
+  - {name: BAWAG, sector: Financials}
+  - {name: Cirsa, sector: Consumer Discretionary}
+  - {name: Saipem, sector: Energy}
+  - {name: Whitbread, sector: Consumer Discretionary}
+  - {name: Midwich, sector: Information Technology}
+  - {name: Macfarlane, sector: Materials}
+  - {name: Hollywood Bowl, sector: Consumer Discretionary}
+  - {name: B&M, sector: Consumer Discretionary}
+  - {name: Coats, sector: Consumer Discretionary}
+  - {name: Coface, sector: Financials}
+  - {name: Naturhouse, sector: Consumer Staples}
+  - {name: Polytec, sector: Consumer Discretionary}
+  - {name: Ipsos, sector: Communication Services}
+  - {name: Crown Holdings, sector: Materials}
+  - {name: Ebro Foods, aliases: [Ebro], sector: Consumer Staples}
+  - {name: Check Point, sector: Information Technology}
+  - {name: Bayer, sector: Health Care}
+  - {name: Roche, sector: Health Care}
+  - {name: Strategy, aliases: [MicroStrategy, Microstrategy], exclude: "^Strategy$", sector: Information Technology}
+
   # Former companies: discussed as investments in the letters, no longer independent.
   # former: what happened. They get their own page and stay out of the main list, sectors and Top 10.
   - {name: Despegar, aliases: [Despegar.com], former: "Comprada por Prosus (2025)"}
@@ -951,7 +1123,7 @@ companies:
   - {name: Frutarom, former: "Comprada por IFF (2018)"}
   - {name: Cazoo, former: "Entró en concurso de acreedores (2024)"}
   - {name: Hill International, former: "Comprada por Global Infrastructure Solutions (2022)"}
-  - {name: CONSOL Energy, aliases: [Consol Coal Resources, CNX Coal Resources], former: "Fusionada con Arch Resources para formar Core Natural Resources (2025)"}
+  - {name: CONSOL Energy, aliases: [Consol Coal Resources, CNX Coal Resources, Consol Energy, Consol], former: "Fusionada con Arch Resources para formar Core Natural Resources (2025)"}
   - {name: Rosetta Stone, former: "Salió de bolsa (2020)"}
   - {name: Itaú CorpBanca, former: "Ahora se llama Ita\u00fa Chile (2023)"}
   - {name: CRH Medical, former: "Salió de bolsa (2021)"}
@@ -995,3 +1167,37 @@ companies:
   - {name: L’Occitane, aliases: ["L'Occitane"], former: "Sacada de bolsa por Reinold Geiger (2024)"}
   - {name: Tiffany, former: "Comprada por LVMH (2021)"}
   - {name: Computer Sciences, former: "Fusionada con HPE's services unit para formar DXC Technology (2017)"}
+  - {name: Applus, aliases: [Applus Services, APPLUS SERVICES S.A, APPLUS España], former: "Sacada de bolsa por Apollo y TDR Capital (2024)"}
+  - {name: TI Fluid Systems, aliases: [TI Fluid, TI Fluids], former: "Comprada por ABC Technologies (2025)"}
+  - {name: Dalata Hotel, aliases: [Dalata, Dalata Irlanda], former: "Comprada por Pandox y Eiendomsspar (2025)"}
+  - {name: Greenalia, former: "Salió de BME Growth tras una OPA de exclusión (2022)"}
+  - {name: Petershill Partners, aliases: [Petershill], former: "Devolvió el capital y salió de la bolsa de Londres (2025)"}
+  - {name: Euronav, former: "Ahora se llama CMB.Tech (2024)"}
+  - {name: Pendragon, former: "Comprada por Lithia Motors (2024)"}
+  - {name: Ensco, former: "Fusionada con Rowan para formar Valaris (2019)"}
+  - {name: Uranium Participation, aliases: [Uranium Participation Corporation], former: "Ahora es Sprott Physical Uranium Trust (2021)"}
+  - {name: Clear Media, former: "Salió de bolsa (2020)"}
+  - {name: PBF Logistics, former: "Fusionada con PBF Energy (2022)"}
+  - {name: Qiwi, former: "Excluida del Nasdaq (2024)"}
+  - {name: HC2 Holdings, aliases: [HC2], former: "Ahora se llama Innovate Corp. (2021)"}
+  - {name: Hunter Douglas, former: "Comprada por 3G Capital (2022)"}
+  - {name: Meggitt, former: "Comprada por Parker Hannifin (2022)"}
+  - {name: Brødrene Hartmann, aliases: [Brodrene Hartmann], former: "Salió de bolsa (2023)"}
+  - {name: Intertrust, former: "Comprada por CSC (2022)"}
+  - {name: Franks International, aliases: [Franks], former: "Fusionada con Expro (2021)"}
+  - {name: Stallergenes Greer, aliases: [Stallergenes], former: "Salió de bolsa (2018)"}
+  - {name: Keywords Studios, former: "Comprada por EQT (2024)"}
+  - {name: Evergrande, former: "En liquidación por orden judicial (2024)"}
+  - {name: Discover Financial Services, former: "Comprada por Capital One (2025)"}
+  - {name: Taubman Centers, former: "Comprada por Simon Property Group (2020)"}
+  - {name: Abertis, former: "Comprada por Atlantia y ACS (2018)"}
+  - {name: Mekonomen, former: "Ahora se llama MEKO (2022)"}
+  - {name: Berendsen, former: "Comprada por Elis (2017)"}
+  - {name: National Express, former: "Ahora se llama Mobico (2023)"}
+  - {name: Euskaltel, former: "Comprada por MásMóvil (2021)"}
+  - {name: Barón de Ley, former: "Salió de bolsa tras una OPA de exclusión (2021)"}
+  - {name: Sandstorm Gold, former: "Comprada por Royal Gold (2025)"}
+  - {name: Alleghany, former: "Comprada por Berkshire Hathaway (2022)"}
+  - {name: Ansys, former: "Comprada por Synopsys (2025)"}
+  - {name: Wincanton, former: "Comprada por GXO (2024)"}
+  - {name: Parques Reunidos, former: "Salió de bolsa (2019)"}
