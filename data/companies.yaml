@@ -1092,7 +1092,7 @@ companies:
   - {name: FCC, sector: Industrials}
   - {name: Subsea7, sector: Energy}
   - {name: Inmobiliaria del Sur, sector: Real Estate}
-  - {name: Prosegur, sector: Industrials}
+  - {name: Prosegur, exclude: "Prosegur Cash", sector: Industrials}
   - {name: Best Buy, sector: Consumer Discretionary}
   - {name: General Motors, sector: Consumer Discretionary}
 
