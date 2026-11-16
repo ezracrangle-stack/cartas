@@ -790,7 +790,7 @@ companies:
   - {name: Línea Directa, sector: Financials}
   - {name: LNA Santé, sector: Health Care}
   - {name: LSL Property Services, aliases: [LSL], sector: Real Estate}
-  - {name: Meliá Hotels, aliases: [Meliá Hotels International, Meliá Hoteles, Meliá], sector: Consumer Discretionary}
+  - {name: Meliá Hotels, aliases: [Meliá Hotels International, Meliá Hoteles, Meliá, Melia], sector: Consumer Discretionary}
   - {name: MERLIN Properties, aliases: [Merlin Properties], sector: Real Estate}
   - {name: Millenium Hospitality Real Estate, aliases: [Millenium Hospitality RE], sector: Real Estate}
   - {name: Minor Hotels Europe, aliases: [NH Hotels, NH Hotel], sector: Consumer Discretionary}
@@ -825,7 +825,7 @@ companies:
   - {name: Tai Cheung Holdings, aliases: [Tai Cheung], sector: Real Estate}
   - {name: Talgo, sector: Industrials}
   - {name: Tang Palace, aliases: [Tang Palace China Holdings, Tang Palace China Holding], sector: Consumer Discretionary}
-  - {name: Técnicas Reunidas, sector: Industrials}
+  - {name: Técnicas Reunidas, aliases: [Tecnicas Reunidas], sector: Industrials}
   - {name: Telefónica, aliases: [Telefonica], exclude: "Brasil", sector: Communication Services}
   - {name: TGS, aliases: [TGS Nopec], sector: Energy}
   - {name: Thales, sector: Industrials}
@@ -1056,6 +1056,46 @@ companies:
   - {name: Roche, sector: Health Care}
   - {name: Strategy, aliases: [MicroStrategy, Microstrategy], exclude: "^Strategy$", sector: Information Technology}
 
+  # Cartas en español (tanda 2: Cobas, Buy & Hold)
+  - {name: Danieli, sector: Industrials}
+  - {name: Currys, aliases: [Dixons Carphone, Dixons], sector: Consumer Discretionary}
+  - {name: Vocento, sector: Communication Services}
+  - {name: Maire, aliases: [Maire Tecnimont], sector: Industrials}
+  - {name: Sacyr, sector: Industrials}
+  - {name: ICL, aliases: [Israel Chemicals], sector: Materials}
+  - {name: Shutterstock, sector: Communication Services}
+  - {name: Exmar, sector: Energy}
+  - {name: Kosmos Energy, aliases: [Kosmos], sector: Energy}
+  - {name: CK Hutchison, sector: Industrials}
+  - {name: OCI, sector: Materials}
+  - {name: OVS, sector: Consumer Discretionary}
+  - {name: Almirall, sector: Health Care}
+  - {name: G-III Apparel, aliases: [G-III], sector: Consumer Discretionary}
+  - {name: Dynagas LNG, sector: Energy}
+  - {name: Fnac Darty, aliases: [Fnac], sector: Consumer Discretionary}
+  - {name: LG Electronics, sector: Consumer Discretionary}
+  - {name: Inpex, sector: Energy}
+  - {name: Thyssenkrupp, sector: Industrials}
+  - {name: BW Energy, sector: Energy}
+  - {name: BW Offshore, aliases: [Bw Offshore], sector: Energy}
+  - {name: Miquel y Costas, sector: Materials}
+  - {name: Energy Transfer, sector: Energy}
+  - {name: Petra Diamonds, sector: Materials}
+  - {name: Viscofan, sector: Consumer Staples}
+  - {name: Aedas Homes, aliases: [Aedas], sector: Consumer Discretionary}
+  - {name: Continental, sector: Consumer Discretionary}
+  - {name: Organon, sector: Health Care}
+  - {name: Unicaja, sector: Financials}
+  - {name: Costamare, sector: Industrials}
+  - {name: Bonheur, sector: Industrials}
+  - {name: Duro Felguera, sector: Industrials}
+  - {name: FCC, sector: Industrials}
+  - {name: Subsea7, sector: Energy}
+  - {name: Inmobiliaria del Sur, sector: Real Estate}
+  - {name: Prosegur, sector: Industrials}
+  - {name: Best Buy, sector: Consumer Discretionary}
+  - {name: General Motors, sector: Consumer Discretionary}
+
   # Former companies: discussed as investments in the letters, no longer independent.
   # former: what happened. They get their own page and stay out of the main list, sectors and Top 10.
   - {name: Despegar, aliases: [Despegar.com], former: "Comprada por Prosus (2025)"}
@@ -1201,3 +1241,13 @@ companies:
   - {name: Ansys, former: "Comprada por Synopsys (2025)"}
   - {name: Wincanton, former: "Comprada por GXO (2024)"}
   - {name: Parques Reunidos, former: "Salió de bolsa (2019)"}
+  - {name: Höegh LNG, aliases: [Hoegh, Hoegh LNG], former: "Salió de bolsa (2021)"}
+  - {name: Hygo Energy Transition, aliases: [Hygo], former: "Comprada por New Fortress Energy (2021)"}
+  - {name: Quabit, former: "Fusionada con Neinor Homes (2021)"}
+  - {name: Bankia, former: "Fusionada con CaixaBank (2021)"}
+  - {name: Mylan, former: "Fusionada con Upjohn para formar Viatris (2020)"}
+  - {name: Cairn Energy, former: "Ahora se llama Capricorn Energy (2021)"}
+  - {name: Iliad, former: "Salió de bolsa (2021)"}
+  - {name: Shire, former: "Comprada por Takeda (2019)"}
+  - {name: GasLog, aliases: [Gaslog], former: "Salió de bolsa (2021)"}
+  - {name: Diamond S Shipping, former: "Fusionada con International Seaways (2021)"}
