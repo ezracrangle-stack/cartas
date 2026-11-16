@@ -24,8 +24,8 @@ MENTIONS_FILE = DATA / "mentions.json"
 
 # Managers whose letters are read for the company index. Add ids here as
 # they are checked; the weekly run then reads their new letters.
-INDEXED = ["cobas", "azvalor", "horos", "equam", "castanar", "bestinver", "salmon-mundi", "metagestion", "abaco", "dltv", "numantia", "invexcel", "brightgate", "only-compounders", "buyandhold", "icaria", "santalucia", "magallanes", "truevalue", "cross", "gb-opportunity", "panza", "azagala", "attitude", "gamma"]
-# Not indexed: semper-augustus (its file host's robots.txt forbids robots) and
+INDEXED = ["cobas", "azvalor", "horos", "equam", "castanar", "bestinver", "salmon-mundi", "metagestion", "abaco", "dltv", "numantia", "invexcel", "brightgate", "only-compounders", "buyandhold", "icaria", "santalucia", "magallanes", "truevalue", "cross", "gb-opportunity", "panza"]
+# Not indexed: azagala (Andbank blocks GitHub), attitude and gamma (Substack blocks GitHub).
 # brookfield (bn.brookfield.com answers 403 to automated visits) and crossroads
 # (letters shown in an Adobe viewer, with no file a robot can open).
 MAX_BYTES = 40 * 1024 * 1024
