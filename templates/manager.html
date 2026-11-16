@@ -9,7 +9,7 @@
 {% if m.best_for %}<p class="best-for"><span>Ideal para</span> {{ m.best_for }}</p>{% endif %}
 
 <blockquote class="take">
-  <p class="take-label">{{ m.take_label or ("Por qué leo a " ~ m.name.split()[0]) }}</p>
+  <p class="take-label">{{ m.take_label or "Por qué vale la pena leerlo" }}</p>
   <p>{{ m.why }}</p>
 </blockquote>
 

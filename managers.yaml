@@ -70,7 +70,6 @@ managers:
     style: "Small caps de calidad compradas con descuento, en un fondo global y concentrado."
     why: "Alejandro y José Antonio explican cada trimestre qué compraron y qué vendieron y por qué, con el detalle de alguien que habla con las empresas."
     best_for: "Inversores en small caps de calidad."
-    take_label: "Por qué los leo"
     letters_page: https://equamcapital.com/documentacion/
     access: open
     scrape:
@@ -106,7 +105,6 @@ managers:
     style: "Value clásico en Europa y el mundo, la gestora donde empezó buena parte del value español."
     why: "Bestinver es la escuela de la que salieron Paramés, Guzmán de Lázaro y otros. Leer sus cartas de hoy ayuda a ver cómo ha cambiado esa forma de invertir con un equipo nuevo."
     best_for: "Quien quiera conocer el origen del value en España."
-    take_label: "Por qué los leo"
     letters_page: https://www.bestinver.es/escuela-de-inversion/carta-trimestral-historico/
     access: open
     scrape:
@@ -126,7 +124,6 @@ managers:
     style: "Value global y concentrado en empresas de calidad compradas a buen precio."
     why: "Guillermo y Marta explican con calma cada posición y lo que ven en el negocio, en cartas cortas y fáciles de leer."
     best_for: "Inversores que quieren cartas breves y al grano."
-    take_label: "Por qué los leo"
     letters_page: https://salmonmundi.com/informes/
     access: open
     scrape:
@@ -146,7 +143,6 @@ managers:
     style: "Value y calidad en Europa y Estados Unidos, con fondos de bolsa española, global y del sector financiero."
     why: "Metagestión publica cartas cortas en las que explica qué compró, qué vendió y cómo ve el mercado ese trimestre."
     best_for: "Inversores que siguen la bolsa española y los bancos."
-    take_label: "Por qué los leo"
     letters_page: https://metagestion.com/wp-json/wp/v2/posts?search=carta&per_page=100&_fields=link,title,date
     access: open
     scrape:
@@ -213,7 +209,6 @@ managers:
     style: "Value global con una cartera diversificada de empresas de calidad."
     why: "Invexcel publica un comentario cada trimestre desde 2017 con los cambios de la cartera y su visión del mercado."
     best_for: "Inversores que quieren seguir una cartera value trimestre a trimestre."
-    take_label: "Por qué los leo"
     letters_page: https://invexcel.com/wp-json/wp/v2/posts?search=comentario&per_page=100&_fields=link,title,date
     access: open
     scrape:
@@ -229,7 +224,6 @@ managers:
     style: "Dos fondos: Global Income, de renta fija flexible, y Focus Fund, de bolsa concentrada."
     why: "BrightGate escribe cartas semestrales largas sobre crédito y renta fija, algo poco común entre los gestores value en español."
     best_for: "Inversores que quieren entender la renta fija con mentalidad value."
-    take_label: "Por qué los leo"
     letters_page: https://brightgatecapital.com/brightgate-global-income-cartas-a-co-participes/
     access: open
     scrape:
@@ -269,7 +263,6 @@ managers:
     style: "Value con mezcla de bolsa y renta fija, y una gestión que busca proteger el capital en las caídas."
     why: "Buy & Hold escribe dos cartas al año en las que explica por qué tiene cada activo, incluida la parte de renta fija."
     best_for: "Inversores que buscan fondos mixtos con mentalidad value."
-    take_label: "Por qué los leo"
     letters_page: https://www.buyandhold.es/category/cartas_semestrales/
     access: open
     scrape:
@@ -309,7 +302,6 @@ managers:
     style: "Value en bolsa española y europea, dentro de una gestora de un grupo asegurador."
     why: "Santalucía AM escribe cartas trimestrales claras sobre qué movió la cartera y qué esperan de cada empresa."
     best_for: "Inversores en bolsa española y europea."
-    take_label: "Por qué los leo"
     letters_page: https://www.santaluciaam.es/cartas-trimestrales/
     access: open
     scrape:
