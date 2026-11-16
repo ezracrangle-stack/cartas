@@ -1,18 +1,18 @@
 {% extends "base.html" %}
-{% block title %}Former companies in investor letters{% endblock %}
-{% block description %}{{ former|length }} companies that were bought, merged, renamed or went bankrupt, and what the value managers wrote about them while they existed.{% endblock %}
+{% block title %}Empresas que ya no existen{% endblock %}
+{% block description %}{{ former|length }} empresas que fueron compradas, fusionadas, cambiaron de nombre o quebraron, y lo que escribieron sobre ellas los gestores value hispanos.{% endblock %}
 {% block main %}
-<p class="crumb"><a href="{{ root }}companies.html">&larr; All companies</a></p>
-<h1 class="page-title">Former companies</h1>
-<p class="dek">{{ former|length }} companies the managers wrote about that no longer exist on their own. Each one links to the letters that discussed it.</p>
+<p class="crumb"><a href="{{ root }}companies.html">&larr; Todas las empresas</a></p>
+<h1 class="page-title">Empresas que ya no existen</h1>
+<p class="dek">{{ former|length }} empresas sobre las que escribieron los gestores y que ya no existen por su cuenta. Cada una enlaza a las cartas que hablaron de ella.</p>
 <ul class="hits">
 {% for c in former %}
   <li>
-    <span class="hit-when">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }}</span>
+    <span class="hit-when">{{ c.hits|length }} carta{{ "s" if c.hits|length != 1 }}</span>
     <span class="hit-what"><a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a>
     <span class="hit-meta">{{ c.former }}</span></span>
   </li>
 {% endfor %}
 </ul>
-<p class="source">Only companies a manager discussed as an investment are here. Names that show up as a passing example, like Enron or Wachovia, are left out. If a note about what happened is wrong, write to me and I'll fix it.</p>
+<p class="source">Solo están las empresas que un gestor analizó como inversión. Las que aparecen como ejemplo de pasada se quedan fuera. Si algún dato sobre lo que pasó está mal, escríbeme y lo corrijo.</p>
 {% endblock %}

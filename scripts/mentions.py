@@ -106,8 +106,18 @@ def html_text(data):
     soup = BeautifulSoup(data, "html.parser")
     for tag in soup(["script", "style", "nav", "header", "footer", "noscript"]):
         tag.decompose()
-    main = soup.find("article") or soup.find("main") or soup.body or soup
-    return main.get_text("\n")
+    return _main(soup).get_text("\n")
+
+
+def _main(soup):
+    """The part of the page that holds the letter: article, main or body, whichever has the most text
+    (some themes leave an empty <article> or <main> around the real content)."""
+    best = soup.body or soup
+    for tag in ("article", "main"):
+        for el in soup.find_all(tag):
+            if len(el.get_text(" ").split()) > 200:
+                return el
+    return best
 
 
 def letter_pdf(data, page_url):
@@ -115,7 +125,7 @@ def letter_pdf(data, page_url):
     from bs4 import BeautifulSoup
     from urllib.parse import urljoin
     soup = BeautifulSoup(data, "html.parser")
-    main = soup.find("article") or soup.find("main") or soup.body or soup
+    main = _main(soup)
     pdfs = []
     for a in main.find_all("a", href=True):
         href = urljoin(page_url, a["href"])
@@ -125,6 +135,10 @@ def letter_pdf(data, page_url):
     same = [h for h in pdfs if slug and slug in h.lower()]
     if len(same) == 1:
         return same[0]
+    letterish = [h for h in pdfs if re.search(r"carta|comentario|letter|informe-trim|semestral|trimestral", h, re.I)
+                 and not re.search(r"pol[ií]tica|politica|calidad-en|reglamento|folleto|dfi|kiid", h, re.I)]
+    if len(letterish) == 1:
+        return letterish[0]
     return pdfs[0] if len(pdfs) == 1 else None
 
 

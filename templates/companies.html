@@ -1,42 +1,44 @@
 {% extends "base.html" %}
-{% block title %}Companies in the letters{% if pager.num > 1 %} (page {{ pager.num }}){% endif %}{% endblock %}
-{% block description %}{{ total }} companies mentioned in {{ letters_read }} letters from the value managers I read. Find every letter that talks about a company, linked to the source.{% endblock %}
+{% block title %}Empresas en las cartas{% if pager.num > 1 %} (página {{ pager.num }}){% endif %}{% endblock %}
+{% block description %}{{ total }} empresas mencionadas en {{ letters_read }} cartas de los gestores value hispanos que leo. Encuentra cada carta que habla de una empresa, enlazada a la fuente.{% endblock %}
 {% block main %}
-<h1 class="page-title">Companies</h1>
-<p class="dek">{{ total }} companies mentioned in {{ letters_read }} letters. Pick one to see every letter that talks about it, newest first.</p>
-{% if pending %}<p class="small">So far the index covers {% for m in covered %}{% if not loop.first %}{% if loop.last %} and {% else %}, {% endif %}{% endif %}<a href="{{ root }}m/{{ m.id }}.html">{{ m.firm }}</a>{% endfor %}. I'm adding the other managers a few at a time.</p>{% endif %}
+<h1 class="page-title">Empresas</h1>
+<p class="dek">{{ total }} empresas mencionadas en {{ letters_read }} cartas. Elige una para ver todas las cartas que hablan de ella, de la más reciente a la más antigua.</p>
+{% if pending %}<p class="small">Por ahora el índice cubre {% for m in covered %}{% if not loop.first %}{% if loop.last %} y {% else %}, {% endif %}{% endif %}<a href="{{ root }}m/{{ m.id }}.html">{{ m.firm }}</a>{% endfor %}. Voy sumando a los demás gestores poco a poco.</p>{% endif %}
 
 <label class="filter">
-  <span class="sr">Find a company</span>
-  <input id="cfind" type="search" placeholder="Type a company, like Microsoft or L'Oréal" autocomplete="off" data-index="{{ root }}search.json" data-root="{{ root }}">
+  <span class="sr">Buscar una empresa</span>
+  <input id="cfind" type="search" placeholder="Escribe una empresa, como Inditex o Alphabet" autocomplete="off" data-index="{{ root }}search.json" data-root="{{ root }}">
 </label>
 <ol class="clist" id="cfound" hidden></ol>
-<p id="cnone" class="small" hidden>No company matches that. The index only covers letters I've been able to read so far.</p>
+<p id="cnone" class="small" hidden>Ninguna empresa coincide. El índice solo cubre las cartas que he podido leer.</p>
 
 <div id="cpages">
 {% if top %}
-<h2 class="section-head">Top 10 most popular</h2>
+<h2 class="section-head">Las 10 más mencionadas</h2>
 <ol class="clist top10">
 {% for c in top %}
-  <li><a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a><span class="ccount">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }}</span></li>
+  <li><a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a><span class="ccount">{{ c.hits|length }} carta{{ "s" if c.hits|length != 1 }}</span></li>
 {% endfor %}
 </ol>
-<h2 class="section-head">By sector</h2>
-{% set current = None %}{% include "_sectors.html" %}
-<p class="small"><a href="{{ root }}companies-former.html">Former companies ({{ former_count }})</a>: bought, merged, renamed or bankrupt, kept for what the managers wrote about them.</p>
-<h2 class="section-head">All companies</h2>
-{% else %}
-<h2 class="section-head">All companies, page {{ pager.num }}</h2>
 {% endif %}
-<p class="small">Sorted by how many letters mention them. Showing {{ start + 1 }} to {{ start + companies|length }} of {{ total }}.</p>
+{% if pager.num == 1 %}
+<h2 class="section-head">Por sector</h2>
+{% set current = None %}{% include "_sectors.html" %}
+{% if former_count %}<p class="small"><a href="{{ root }}companies-former.html">Empresas que ya no existen ({{ former_count }})</a>: compradas, fusionadas, con otro nombre o en quiebra. Se quedan por lo que los gestores escribieron sobre ellas.</p>{% endif %}
+<h2 class="section-head">Todas las empresas</h2>
+{% else %}
+<h2 class="section-head">Todas las empresas, página {{ pager.num }}</h2>
+{% endif %}
+<p class="small">Ordenadas por cuántas cartas las mencionan. Mostrando de la {{ start + 1 }} a la {{ start + companies|length }} de {{ total }}.</p>
 <ol class="clist">
 {% for c in companies %}
-  <li><a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a><span class="ccount">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }}</span></li>
+  <li><a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a><span class="ccount">{{ c.hits|length }} carta{{ "s" if c.hits|length != 1 }}</span></li>
 {% endfor %}
 </ol>
 {% set prefix = root %}{% include "_pager.html" %}
 </div>
-<p class="source">The index is built by reading each letter once and keeping only the company names it finds. The main list has companies that still exist on their own; the ones that were bought, merged, renamed or went bankrupt are under former companies. Letters that are scanned images, or only open to registered users, aren't covered.</p>
+<p class="source">El índice se arma leyendo cada carta una vez y guardando solo los nombres de empresas que aparecen. La lista principal tiene las empresas que siguen existiendo por su cuenta; las que fueron compradas, fusionadas, cambiaron de nombre o quebraron están en empresas que ya no existen. Las cartas escaneadas como imagen, o que solo se abren en un visor, no están cubiertas.</p>
 {% endblock %}
 {% block scripts %}<script>
 (function () {
@@ -51,7 +53,7 @@
     hits.forEach(function (c) {
       var li = document.createElement('li'), a = document.createElement('a'), sp = document.createElement('span');
       a.href = input.dataset.root + c.u; a.textContent = c.n;
-      sp.className = 'ccount'; sp.textContent = c.l + (c.l === 1 ? ' letter' : ' letters');
+      sp.className = 'ccount'; sp.textContent = c.l + (c.l === 1 ? ' carta' : ' cartas');
       li.appendChild(a); li.appendChild(sp); found.appendChild(li);
     });
     pages.hidden = true; found.hidden = !hits.length; none.hidden = !!hits.length;

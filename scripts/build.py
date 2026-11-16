@@ -21,7 +21,12 @@ OUT = ROOT / "docs"
 SITE_URL = "https://cartas.ezrasnotes.com"
 COMPANIES_PER_PAGE = 100
 HITS_PER_PAGE = 20
-TOP_COMPANIES = []  # se llena cuando exista el índice de empresas
+TOP_COMPANIES = []  # vacío: las 10 más mencionadas
+SECTOR_ES = {"Information Technology": "Tecnología de la información", "Health Care": "Salud",
+             "Consumer Staples": "Consumo básico", "Consumer Discretionary": "Consumo discrecional",
+             "Financials": "Finanzas", "Industrials": "Industria", "Energy": "Energía",
+             "Materials": "Materiales", "Utilities": "Servicios públicos", "Real Estate": "Inmobiliario",
+             "Communication Services": "Servicios de comunicación"}
 GA_ID = ""  # Google Analytics del sitio en español. Vacío = apagado.
 NEWSLETTER_URL = "https://www.ezrasnotes.com"
 SUBSCRIBE_URL = "https://www.ezrasnotes.com"
@@ -150,15 +155,16 @@ def build():
         covered = {h["manager"]["id"] for c in companies for h in c["hits"]}
         letters_read = len({h["letter"]["url"] for c in companies for h in c["hits"]})
         by_name = {c["name"]: c for c in companies}
-        top = [by_name[n] for n in TOP_COMPANIES if n in by_name]
+        top = [by_name[n] for n in TOP_COMPANIES if n in by_name] or companies[:10]
         sectors = {}
         for c in companies:
             if c["sector"]:
-                sectors.setdefault(c["sector"], []).append(c)
+                sectors.setdefault(SECTOR_ES.get(c["sector"], c["sector"]), []).append(c)
         sectors = sorted(({"name": k, "slug": slugify(k), "companies": v} for k, v in sectors.items()),
                          key=lambda x: x["name"])
         for c in every_company:
-            c["sector_slug"] = slugify(c["sector"]) if c["sector"] else None
+            c["sector_name"] = SECTOR_ES.get(c["sector"], c["sector"]) if c["sector"] else None
+        c["sector_slug"] = slugify(c["sector_name"]) if c["sector"] else None
         pages = [companies[i:i + COMPANIES_PER_PAGE] for i in range(0, len(companies), COMPANIES_PER_PAGE)] or [[]]
         page_url = lambda n, base: f"{base}.html" if n == 1 else f"{base}-{n}.html"
         for n, chunk in enumerate(pages, 1):
@@ -188,7 +194,7 @@ def build():
     index = {"managers": [{"n": m["name"], "f": m["firm"], "s": m["style"], "u": f"m/{m['id']}.html"}
                           for m in managers],
              "companies": [{"n": c["name"], "l": len(c["hits"]), "u": f"c/{c['slug']}.html",
-                            "s": "Empresa que ya no existe" if c["former"] else (c["sector"] or "")}
+                            "s": "Empresa que ya no existe" if c["former"] else (c["sector_name"] or "")}
                            for c in every_company]}
     (OUT / "search.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")),
                                      encoding="utf-8")

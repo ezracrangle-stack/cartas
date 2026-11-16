@@ -886,112 +886,112 @@ companies:
 
   # Former companies: discussed as investments in the letters, no longer independent.
   # former: what happened. They get their own page and stay out of the main list, sectors and Top 10.
-  - {name: Despegar, aliases: [Despegar.com], former: "Acquired by Prosus (2025)"}
-  - {name: Crayon, former: "Merged with SoftwareOne (2025)"}
-  - {name: LoopUp, former: "Delisted from AIM (2023)"}
-  - {name: Revlon, former: "Went private after Chapter 11 (2023)"}
-  - {name: Zooplus, former: "Taken private by Hellman & Friedman and EQT (2021)"}
-  - {name: Redbubble, former: "Renamed Articore Group (2023)"}
-  - {name: Redknee, former: "Renamed Optiva (2017)"}
-  - {name: Diamond Resorts, former: "Acquired by Hilton Grand Vacations (2021)"}
-  - {name: Yamana Gold, aliases: [Yamana], former: "Sold to Pan American Silver and Agnico Eagle (2023)"}
-  - {name: Ocwen, former: "Renamed Onity Group (2024)"}
-  - {name: Nevsun, former: "Acquired by Zijin Mining (2019)"}
-  - {name: MEG Energy, former: "Agreed to be acquired by Cenovus (2025)"}
-  - {name: SharpSpring, aliases: [Sharpspring], former: "Acquired by Constant Contact (2021)"}
-  - {name: Afterpay, former: "Acquired by Block (2022)"}
-  - {name: Poshmark, former: "Acquired by Naver (2023)"}
-  - {name: Atlas Mara, former: "Wound down and delisted"}
-  - {name: Valeant, former: "Renamed Bausch Health (2018)"}
-  - {name: BNSF, aliases: [Burlington Northern Santa Fe], former: "Acquired by Berkshire Hathaway (2010)"}
-  - {name: Shinsei Bank, aliases: [Shinsei], former: "Taken over by SBI Holdings and renamed SBI Shinsei Bank"}
-  - {name: Iteris, former: "Acquired by Almaviva (2024)"}
-  - {name: AcuityAds, former: "Renamed illumin (2022)"}
-  - {name: BR Properties, former: "Sold its property portfolio and delisted"}
-  - {name: Stericycle, former: "Acquired by WM (2024)"}
-  - {name: WeWork, former: "Went private after Chapter 11 (2024)"}
-  - {name: ADESA, aliases: [Adesa], former: "U.S. auction business bought by Carvana (2022)"}
-  - {name: Livongo, former: "Merged with Teladoc (2020)"}
-  - {name: Avid Bioservices, former: "Taken private by GHO Capital and Ampersand (2025)"}
-  - {name: Elizabeth Arden, former: "Acquired by Revlon (2016)"}
-  - {name: Walgreens, aliases: [Walgreen], former: "Taken private by Sycamore Partners (2025)"}
-  - {name: "Scott's Liquid Gold", aliases: ["Scott\u2019s Liquid Gold"], former: "Merged with Horizon Kinetics (2024)"}
-  - {name: Oaktree, former: "Acquired by Brookfield"}
-  - {name: Vizio, former: "Acquired by Walmart (2024)"}
-  - {name: Cantaloupe, aliases: [USA Technologies], former: "Acquired by 365 Retail Markets (2025)"}
-  - {name: "Cabela's", aliases: [Cabela], former: "Acquired by Bass Pro Shops (2017)"}
-  - {name: Panera Bread, aliases: [Panera], former: "Taken private by JAB (2017)"}
-  - {name: Viagogo, former: "Merged with StubHub (2020)"}
-  - {name: RealPage, aliases: [Realpage], former: "Taken private by Thoma Bravo (2021)"}
-  - {name: Crossroads Systems, former: "Renamed Crossroads Impact Corp"}
-  - {name: Yahoo, former: "Bought by Verizon (2017), then by Apollo (2021)"}
-  - {name: Buffalo Wild Wings, former: "Acquired by Arby's owner, now Inspire Brands (2018)"}
-  - {name: Polished.com, aliases: [Goedeker], former: "Filed for Chapter 7 bankruptcy (2024)"}
-  - {name: Catalent, former: "Acquired by Novo Holdings (2024)"}
-  - {name: Countryside Partnerships, former: "Merged with Vistry (2022)"}
-  - {name: Turquoise Hill, former: "Bought out by Rio Tinto (2022)"}
-  - {name: Colfax, former: "Renamed Enovis after spinning off ESAB (2022)"}
-  - {name: Realogy, former: "Renamed Anywhere Real Estate (2021)"}
-  - {name: Hess, former: "Acquired by Chevron (2025)"}
-  - {name: Fiat Chrysler, former: "Merged with PSA to form Stellantis (2021)"}
-  - {name: Precision Castparts, former: "Acquired by Berkshire Hathaway (2016)"}
-  - {name: Landec, former: "Renamed Lifecore Biomedical (2022)"}
-  - {name: Lundin Energy, aliases: [Lundin Petroleum], former: "Oil business merged into Aker BP (2022)"}
-  - {name: Whole Earth Brands, former: "Taken private (2024)"}
-  - {name: GCI Liberty, former: "Merged into Liberty Broadband (2020)"}
-  - {name: AmeriGas, former: "Bought out by UGI (2019)"}
-  - {name: Knight Transportation, aliases: [Knight Transport], former: "Merged with Swift to form Knight-Swift (2017)"}
-  - {name: Houghton Mifflin Harcourt, aliases: [Houghton Mifflin], former: "Taken private by Veritas Capital (2022)"}
-  - {name: Siemens Gamesa, former: "Taken private by Siemens Energy (2023)"}
-  - {name: Black Diamond Equipment, former: "Parent company renamed Clarus (2017)"}
-  - {name: Bed Bath & Beyond, former: "Filed for bankruptcy (2023)"}
-  - {name: Dr Pepper Snapple, aliases: [Pepper Snapple], former: "Merged with Keurig to form Keurig Dr Pepper (2018)"}
-  - {name: Standard Diversified, former: "Merged into Turning Point Brands (2020)"}
-  - {name: Aspen Insurance, former: "Taken private by Apollo (2019)"}
-  - {name: Frutarom, former: "Acquired by IFF (2018)"}
-  - {name: Cazoo, former: "Went into administration (2024)"}
-  - {name: Hill International, former: "Acquired by Global Infrastructure Solutions (2022)"}
-  - {name: CONSOL Energy, aliases: [Consol Coal Resources, CNX Coal Resources], former: "Merged with Arch Resources into Core Natural Resources (2025)"}
-  - {name: Rosetta Stone, former: "Taken private (2020)"}
-  - {name: Itaú CorpBanca, former: "Renamed Ita\u00fa Chile (2023)"}
-  - {name: CRH Medical, former: "Taken private (2021)"}
-  - {name: Gulfmark, former: "Merged with Tidewater (2018)"}
-  - {name: WWE, former: "Merged with UFC into TKO Group (2023)"}
-  - {name: PartnerRe, former: "Acquired by Cov\u00e9a (2022)"}
-  - {name: Zynga, former: "Acquired by Take-Two (2022)"}
-  - {name: Ocean Yield, former: "Taken private by KKR (2021)"}
-  - {name: Newcrest, former: "Acquired by Newmont (2023)"}
-  - {name: Luxoft, former: "Acquired by DXC Technology (2019)"}
-  - {name: Lincare, former: "Acquired by Linde (2012)"}
-  - {name: Exterran, former: "Acquired by Enerflex (2022)"}
-  - {name: Delta Lloyd, former: "Acquired by NN Group (2017)"}
-  - {name: Comparex, former: "Acquired by SoftwareOne (2019)"}
-  - {name: CommerceHub, former: "Taken private by GTCR and Sycamore (2018)"}
-  - {name: Blade Air Mobility, former: "Renamed Strata Critical Medical (2025)"}
-  - {name: Credit Suisse, former: "Acquired by UBS (2023)"}
-  - {name: Splunk, former: "Acquired by Cisco (2024)"}
-  - {name: Covetrus, former: "Taken private by CD&R and TPG (2022)"}
-  - {name: QVC Group, aliases: [QVC, Liberty Interactive, Qurate Retail], former: "Filed for Chapter 11 (2026)"}
-  - {name: HSN, former: "Acquired by Liberty Interactive (2017)"}
-  - {name: HRG Group, aliases: [HRG], former: "Merged into Spectrum Brands (2018)"}
-  - {name: Fidelity & Guaranty Life, aliases: [CF Corporation, FGL Holdings], former: "Acquired by Fidelity National Financial (2020)"}
-  - {name: Blount International, aliases: [Blount], former: "Taken private by American Securities and P2 Capital (2016)"}
-  - {name: TD Ameritrade, aliases: [Ameritrade], former: "Acquired by Charles Schwab (2020)"}
-  - {name: E*TRADE, aliases: [E*TRADE Financial], former: "Acquired by Morgan Stanley (2020)"}
-  - {name: IHS Markit, former: "Merged with S&P Global (2022)"}
-  - {name: Kenvue, former: "Acquired by Kimberly-Clark (2026)"}
-  - {name: Nordstrom, former: "Taken private by the Nordstrom family and Liverpool (2025)"}
-  - {name: Dun & Bradstreet, former: "Taken private by Clearlake Capital (2025)"}
-  - {name: Ascential, former: "Acquired by Informa (2024)"}
-  - {name: Wincor Nixdorf, former: "Merged with Diebold to form Diebold Nixdorf (2016)"}
-  - {name: Silver Bay Realty Trust, former: "Acquired by Tricon Capital (2017)"}
-  - {name: Discovery Communications, former: "Merged with WarnerMedia to form Warner Bros. Discovery (2022)"}
-  - {name: Scripps Networks Interactive, former: "Acquired by Discovery (2018)"}
-  - {name: Express Scripts, former: "Acquired by Cigna (2018)"}
-  - {name: Redrow, former: "Acquired by Barratt Developments (2024)"}
-  - {name: Farfetch, former: "Rescued by Coupang and delisted (2024)"}
-  - {name: Yoox Net-a-Porter, former: "Taken over by Richemont (2018), sold to Mytheresa (2025)"}
-  - {name: Merlin Entertainments, former: "Taken private by Kirkbi, Blackstone and CPPIB (2019)"}
-  - {name: L’Occitane, aliases: ["L'Occitane"], former: "Taken private by Reinold Geiger (2024)"}
-  - {name: Tiffany, former: "Acquired by LVMH (2021)"}
-  - {name: Computer Sciences, former: "Merged with HPE's services unit to form DXC Technology (2017)"}
+  - {name: Despegar, aliases: [Despegar.com], former: "Comprada por Prosus (2025)"}
+  - {name: Crayon, former: "Fusionada con SoftwareOne (2025)"}
+  - {name: LoopUp, former: "Excluida de AIM (2023)"}
+  - {name: Revlon, former: "Salió de bolsa tras el Chapter 11 (2023)"}
+  - {name: Zooplus, former: "Sacada de bolsa por Hellman & Friedman y EQT (2021)"}
+  - {name: Redbubble, former: "Ahora se llama Articore Group (2023)"}
+  - {name: Redknee, former: "Ahora se llama Optiva (2017)"}
+  - {name: Diamond Resorts, former: "Comprada por Hilton Grand Vacations (2021)"}
+  - {name: Yamana Gold, aliases: [Yamana], former: "Vendida a Pan American Silver y Agnico Eagle (2023)"}
+  - {name: Ocwen, former: "Ahora se llama Onity Group (2024)"}
+  - {name: Nevsun, former: "Comprada por Zijin Mining (2019)"}
+  - {name: MEG Energy, former: "Acordó be acquired by Cenovus (2025)"}
+  - {name: SharpSpring, aliases: [Sharpspring], former: "Comprada por Constant Contact (2021)"}
+  - {name: Afterpay, former: "Comprada por Block (2022)"}
+  - {name: Poshmark, former: "Comprada por Naver (2023)"}
+  - {name: Atlas Mara, former: "Se liquidó y salió de bolsa"}
+  - {name: Valeant, former: "Ahora se llama Bausch Health (2018)"}
+  - {name: BNSF, aliases: [Burlington Northern Santa Fe], former: "Comprada por Berkshire Hathaway (2010)"}
+  - {name: Shinsei Bank, aliases: [Shinsei], former: "Absorbida por SBI Holdings y pasó a llamarse SBI Shinsei Bank"}
+  - {name: Iteris, former: "Comprada por Almaviva (2024)"}
+  - {name: AcuityAds, former: "Ahora se llama illumin (2022)"}
+  - {name: BR Properties, former: "Vendió su cartera inmobiliaria y salió de bolsa"}
+  - {name: Stericycle, former: "Comprada por WM (2024)"}
+  - {name: WeWork, former: "Salió de bolsa tras el Chapter 11 (2024)"}
+  - {name: ADESA, aliases: [Adesa], former: "Su negocio de subastas en EE. UU. lo compró Carvana (2022)"}
+  - {name: Livongo, former: "Fusionada con Teladoc (2020)"}
+  - {name: Avid Bioservices, former: "Sacada de bolsa por GHO Capital y Ampersand (2025)"}
+  - {name: Elizabeth Arden, former: "Comprada por Revlon (2016)"}
+  - {name: Walgreens, aliases: [Walgreen], former: "Sacada de bolsa por Sycamore Partners (2025)"}
+  - {name: "Scott's Liquid Gold", aliases: ["Scott\u2019s Liquid Gold"], former: "Fusionada con Horizon Kinetics (2024)"}
+  - {name: Oaktree, former: "Comprada por Brookfield"}
+  - {name: Vizio, former: "Comprada por Walmart (2024)"}
+  - {name: Cantaloupe, aliases: [USA Technologies], former: "Comprada por 365 Retail Markets (2025)"}
+  - {name: "Cabela's", aliases: [Cabela], former: "Comprada por Bass Pro Shops (2017)"}
+  - {name: Panera Bread, aliases: [Panera], former: "Sacada de bolsa por JAB (2017)"}
+  - {name: Viagogo, former: "Fusionada con StubHub (2020)"}
+  - {name: RealPage, aliases: [Realpage], former: "Sacada de bolsa por Thoma Bravo (2021)"}
+  - {name: Crossroads Systems, former: "Ahora se llama Crossroads Impact Corp"}
+  - {name: Yahoo, former: "Comprada por Verizon (2017) y después por Apollo (2021)"}
+  - {name: Buffalo Wild Wings, former: "Comprada por Arby's owner, now Inspire Brands (2018)"}
+  - {name: Polished.com, aliases: [Goedeker], former: "Se acogió a Chapter 7 bankruptcy (2024)"}
+  - {name: Catalent, former: "Comprada por Novo Holdings (2024)"}
+  - {name: Countryside Partnerships, former: "Fusionada con Vistry (2022)"}
+  - {name: Turquoise Hill, former: "Comprada por Rio Tinto (2022)"}
+  - {name: Colfax, former: "Ahora se llama Enovis tras spinning off ESAB (2022)"}
+  - {name: Realogy, former: "Ahora se llama Anywhere Real Estate (2021)"}
+  - {name: Hess, former: "Comprada por Chevron (2025)"}
+  - {name: Fiat Chrysler, former: "Fusionada con PSA para formar Stellantis (2021)"}
+  - {name: Precision Castparts, former: "Comprada por Berkshire Hathaway (2016)"}
+  - {name: Landec, former: "Ahora se llama Lifecore Biomedical (2022)"}
+  - {name: Lundin Energy, aliases: [Lundin Petroleum], former: "Su negocio petrolero se fusionó con Aker BP (2022)"}
+  - {name: Whole Earth Brands, former: "Salió de bolsa (2024)"}
+  - {name: GCI Liberty, former: "Fusionada con Liberty Broadband (2020)"}
+  - {name: AmeriGas, former: "Comprada por UGI (2019)"}
+  - {name: Knight Transportation, aliases: [Knight Transport], former: "Fusionada con Swift para formar Knight-Swift (2017)"}
+  - {name: Houghton Mifflin Harcourt, aliases: [Houghton Mifflin], former: "Sacada de bolsa por Veritas Capital (2022)"}
+  - {name: Siemens Gamesa, former: "Sacada de bolsa por Siemens Energy (2023)"}
+  - {name: Black Diamond Equipment, former: "La matriz pasó a llamarse Clarus (2017)"}
+  - {name: Bed Bath & Beyond, former: "Quebró (2023)"}
+  - {name: Dr Pepper Snapple, aliases: [Pepper Snapple], former: "Fusionada con Keurig para formar Keurig Dr Pepper (2018)"}
+  - {name: Standard Diversified, former: "Fusionada con Turning Point Brands (2020)"}
+  - {name: Aspen Insurance, former: "Sacada de bolsa por Apollo (2019)"}
+  - {name: Frutarom, former: "Comprada por IFF (2018)"}
+  - {name: Cazoo, former: "Entró en concurso de acreedores (2024)"}
+  - {name: Hill International, former: "Comprada por Global Infrastructure Solutions (2022)"}
+  - {name: CONSOL Energy, aliases: [Consol Coal Resources, CNX Coal Resources], former: "Fusionada con Arch Resources para formar Core Natural Resources (2025)"}
+  - {name: Rosetta Stone, former: "Salió de bolsa (2020)"}
+  - {name: Itaú CorpBanca, former: "Ahora se llama Ita\u00fa Chile (2023)"}
+  - {name: CRH Medical, former: "Salió de bolsa (2021)"}
+  - {name: Gulfmark, former: "Fusionada con Tidewater (2018)"}
+  - {name: WWE, former: "Fusionada con UFC para formar TKO Group (2023)"}
+  - {name: PartnerRe, former: "Comprada por Cov\u00e9a (2022)"}
+  - {name: Zynga, former: "Comprada por Take-Two (2022)"}
+  - {name: Ocean Yield, former: "Sacada de bolsa por KKR (2021)"}
+  - {name: Newcrest, former: "Comprada por Newmont (2023)"}
+  - {name: Luxoft, former: "Comprada por DXC Technology (2019)"}
+  - {name: Lincare, former: "Comprada por Linde (2012)"}
+  - {name: Exterran, former: "Comprada por Enerflex (2022)"}
+  - {name: Delta Lloyd, former: "Comprada por NN Group (2017)"}
+  - {name: Comparex, former: "Comprada por SoftwareOne (2019)"}
+  - {name: CommerceHub, former: "Sacada de bolsa por GTCR y Sycamore (2018)"}
+  - {name: Blade Air Mobility, former: "Ahora se llama Strata Critical Medical (2025)"}
+  - {name: Credit Suisse, former: "Comprada por UBS (2023)"}
+  - {name: Splunk, former: "Comprada por Cisco (2024)"}
+  - {name: Covetrus, former: "Sacada de bolsa por CD&R y TPG (2022)"}
+  - {name: QVC Group, aliases: [QVC, Liberty Interactive, Qurate Retail], former: "Se acogió al Chapter 11 (2026)"}
+  - {name: HSN, former: "Comprada por Liberty Interactive (2017)"}
+  - {name: HRG Group, aliases: [HRG], former: "Fusionada con Spectrum Brands (2018)"}
+  - {name: Fidelity & Guaranty Life, aliases: [CF Corporation, FGL Holdings], former: "Comprada por Fidelity National Financial (2020)"}
+  - {name: Blount International, aliases: [Blount], former: "Sacada de bolsa por American Securities y P2 Capital (2016)"}
+  - {name: TD Ameritrade, aliases: [Ameritrade], former: "Comprada por Charles Schwab (2020)"}
+  - {name: E*TRADE, aliases: [E*TRADE Financial], former: "Comprada por Morgan Stanley (2020)"}
+  - {name: IHS Markit, former: "Fusionada con S&P Global (2022)"}
+  - {name: Kenvue, former: "Comprada por Kimberly-Clark (2026)"}
+  - {name: Nordstrom, former: "Sacada de bolsa por la familia Nordstrom y Liverpool (2025)"}
+  - {name: Dun & Bradstreet, former: "Sacada de bolsa por Clearlake Capital (2025)"}
+  - {name: Ascential, former: "Comprada por Informa (2024)"}
+  - {name: Wincor Nixdorf, former: "Fusionada con Diebold para formar Diebold Nixdorf (2016)"}
+  - {name: Silver Bay Realty Trust, former: "Comprada por Tricon Capital (2017)"}
+  - {name: Discovery Communications, former: "Fusionada con WarnerMedia para formar Warner Bros. Discovery (2022)"}
+  - {name: Scripps Networks Interactive, former: "Comprada por Discovery (2018)"}
+  - {name: Express Scripts, former: "Comprada por Cigna (2018)"}
+  - {name: Redrow, former: "Comprada por Barratt Developments (2024)"}
+  - {name: Farfetch, former: "Rescatada por Coupang y salió de bolsa (2024)"}
+  - {name: Yoox Net-a-Porter, former: "Absorbida por Richemont (2018), vendida a Mytheresa (2025)"}
+  - {name: Merlin Entertainments, former: "Sacada de bolsa por Kirkbi, Blackstone y CPPIB (2019)"}
+  - {name: L’Occitane, aliases: ["L'Occitane"], former: "Sacada de bolsa por Reinold Geiger (2024)"}
+  - {name: Tiffany, former: "Comprada por LVMH (2021)"}
+  - {name: Computer Sciences, former: "Fusionada con HPE's services unit para formar DXC Technology (2017)"}
