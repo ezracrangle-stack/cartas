@@ -23,7 +23,7 @@ COMPANIES_PER_PAGE = 100
 HITS_PER_PAGE = 20
 TOP_COMPANIES = []  # vacío: las 10 más mencionadas
 SECTOR_ES = {}  # los sectores se muestran con su nombre GICS en inglés
-GA_ID = ""  # Google Analytics del sitio en español. Vacío = apagado.
+GA_ID = "G-69EPSPQ0BL"  # Google Analytics, flujo "Cartas". Vacío = apagado.
 NEWSLETTER_URL = "https://www.ezrasnotes.com"
 SUBSCRIBE_URL = "https://www.ezrasnotes.com"
 # Hosts that are copies, not the manager's own site: shown as "via ..."
