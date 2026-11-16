@@ -11,6 +11,7 @@ on:
       - templates/**
       - static/**
       - scripts/**
+      - data/companies.yaml
 
 permissions:
   contents: write               # save new letters and the rebuilt site
