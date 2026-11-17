@@ -70,6 +70,12 @@
   <p class="take-label">Por qué vale la pena leer sus cartas</p>
   <p>Paramés lleva más de 30 años invirtiendo y explica sin rodeos por qué tiene lo que tiene, incluso cuando el mercado lleva tiempo en contra. Sus cartas son una clase sobre paciencia y sobre cómo separar el precio del valor.</p>
 </blockquote>
+<aside class="sister subscribe" data-place="mid" data-kind="manager">
+  <p class="sister-kicker">Newsletter en inglés</p>
+  <p class="sister-head"><a href="https://www.ezrasnotes.com/subscribe?utm_source=cartas&amp;utm_medium=site&amp;utm_campaign=mid-manager">Ezra's Notes</a></p>
+  <p class="sister-body">Escribo sobre lo que hacen gestores como este y por qué. Ezra&#39;s Notes es gratis, sale cada semana y se publica en inglés.</p>
+  <a class="button" href="https://www.ezrasnotes.com/subscribe?utm_source=cartas&amp;utm_medium=site&amp;utm_campaign=mid-manager">Suscríbete gratis</a>
+</aside>
 
 
   <p class="source">Los enlaces llevan a la web de la gestora, salvo los marcados con "vía", que son copias públicas de cartas que la gestora ya no aloja. <a href="https://www.cobasam.com/categoria/comentario-trimestral/" target="_blank" rel="noopener">Página oficial de cartas &#8599;</a></p>
@@ -224,11 +230,13 @@
   </p>
 </div>
 
-<aside class="cta slim">
-  <p class="cta-text">Ezra's Notes: invertir con mentalidad de largo plazo, viendo las empresas como lo haría su dueño. Gratis, en inglés.</p>
-  <a class="button" href="https://www.ezrasnotes.com">Suscríbete</a>
-</aside>
 
+<aside class="sister subscribe" data-place="end" data-kind="manager-end">
+  <p class="sister-kicker">Newsletter en inglés</p>
+  <p class="sister-head"><a href="https://www.ezrasnotes.com/subscribe?utm_source=cartas&amp;utm_medium=site&amp;utm_campaign=end-manager-end">Ezra's Notes</a></p>
+  <p class="sister-body">Si lees a estos gestores, en Ezra&#39;s Notes escribo sobre los negocios que tienen en cartera. Gratis, cada semana, en inglés.</p>
+  <a class="button" href="https://www.ezrasnotes.com/subscribe?utm_source=cartas&amp;utm_medium=site&amp;utm_campaign=end-manager-end">Suscríbete gratis</a>
+</aside>
 </main>
 
 <footer>
@@ -250,5 +258,15 @@
 <script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Claro':'Oscuro'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
 <script>(function(){document.querySelectorAll('.share').forEach(function(box){var url=box.dataset.url,title=box.dataset.title,n=box.querySelector('.share-native'),c=box.querySelector('.share-copy');if(navigator.share){n.hidden=false;n.addEventListener('click',function(){navigator.share({title:title,url:url}).catch(function(){})})}c.addEventListener('click',function(){var done=function(){c.textContent='Copiado';setTimeout(function(){c.textContent='Copiar enlace'},2000)};if(navigator.clipboard){navigator.clipboard.writeText(url).then(done,function(){prompt('Copia este enlace:',url)})}else{prompt('Copia este enlace:',url)}})})})();</script>
 
+<script>(function(){
+  /* Newsletter box: tell Google Analytics when it shows up and when someone clicks it. */
+  var boxes=document.querySelectorAll('.subscribe'); if(!boxes.length) return;
+  function send(name,box){ if(window.gtag) gtag('event',name,{placement:box.dataset.place,page_kind:box.dataset.kind}); }
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){send('subscribe_box_view',e.target);io.unobserve(e.target);}})},{threshold:0.5});
+    boxes.forEach(function(b){io.observe(b)});
+  }
+  boxes.forEach(function(b){b.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){send('subscribe_click',b)})})});
+})();</script>
 </body>
 </html>

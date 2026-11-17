@@ -1,4 +1,6 @@
 {% extends "base.html" %}
+{% from "_subscribe.html" import subscribe %}
+{% set end_kind = "manager-end" %}
 {% block title %}{{ m.name }}, {{ m.firm }}{% endblock %}
 {% block description %}{{ m.why }}{% endblock %}
 {% block main %}
@@ -12,6 +14,7 @@
   <p class="take-label">{{ m.take_label or "Por qué vale la pena leer sus cartas" }}</p>
   <p>{{ m.why }}</p>
 </blockquote>
+{{ subscribe("manager", "mid") }}
 
 {% if m.access == 'registration' %}
   <p class="notice">{{ m.access_note or (m.firm ~ " solo comparte sus cartas con lectores registrados. Regístrate en su web para leerlas.") }}</p>
@@ -37,8 +40,4 @@
 {% set share_title = m.name ~ " (" ~ m.firm ~ "): todas sus cartas en un solo lugar" %}
 {% include "_share.html" %}
 
-<aside class="cta slim">
-  <p class="cta-text">Ezra's Notes: invertir con mentalidad de largo plazo, viendo las empresas como lo haría su dueño. Gratis, en inglés.</p>
-  <a class="button" href="{{ subscribe_url }}">Suscríbete</a>
-</aside>
 {% endblock %}

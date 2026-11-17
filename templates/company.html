@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% set end_kind = "company" %}{% set end_name = c.name %}
 {% block title %}{{ c.name }}{% if c.former %} (ya no existe){% endif %} en las cartas de los gestores{% if pager.num > 1 %} (página {{ pager.num }}){% endif %}{% endblock %}
 {% block description %}{{ c.hits|length }} carta{{ "s" if c.hits|length != 1 }} de gestores value hispanos que mencionan {{ c.name }}, enlazadas a la fuente.{% endblock %}
 {% block main %}
