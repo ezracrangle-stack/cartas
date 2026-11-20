@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="static/style.css?v=2cebfafa">
+<link rel="stylesheet" href="static/style.css?v=a5ac9198">
 <link rel="alternate" type="application/rss+xml" title="Cartas a Inversores · Ezra's Notes" href="feed.xml">
 <meta property="og:title" content="Los gestores · Ezra's Notes">
 <meta property="og:description" content="Los gestores value hispanos del sitio y para quién es cada uno.">
@@ -42,7 +42,7 @@
   <div class="topline">
     <a href="https://www.ezrasnotes.com">Ezra's Notes</a>
     <span class="topright">
-      <span class="checked">Revisado el 17 de noviembre de 2026</span>
+      <span class="checked">Revisado el 20 de noviembre de 2026</span>
       <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Cambiar entre modo claro y oscuro">Oscuro</button>
     </span>
   </div>
@@ -78,7 +78,7 @@
       <td class="who"><a href="m/only-compounders.html">Enrique Bestilleiro</a><span class="firm">Only Compounders</span></td>
       <td class="style">Solo empresas compounder: negocios de alta calidad que reinvierten a buenas rentabilidades durante años.</td>
       <td class="bf">Inversores en empresas de calidad a largo plazo.</td>
-      <td class="num">11<span class="latest">última 1S 2026</span></td>
+      <td class="num">12<span class="latest">última 3T 2026</span></td>
     </tr>
   
     <tr data-search="javier caballero gestión boutique vi opportunity value concentrado en empresas que el mercado no valora bien. inversores en ideas concentradas.">
@@ -299,7 +299,7 @@
 <script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
 <script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Claro':'Oscuro'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
 <script>(function(){document.querySelectorAll('.share').forEach(function(box){var url=box.dataset.url,title=box.dataset.title,n=box.querySelector('.share-native'),c=box.querySelector('.share-copy');if(navigator.share){n.hidden=false;n.addEventListener('click',function(){navigator.share({title:title,url:url}).catch(function(){})})}c.addEventListener('click',function(){var done=function(){c.textContent='Copiado';setTimeout(function(){c.textContent='Copiar enlace'},2000)};if(navigator.clipboard){navigator.clipboard.writeText(url).then(done,function(){prompt('Copia este enlace:',url)})}else{prompt('Copia este enlace:',url)}})})})();</script>
-<script src="static/filter.js?v=2cebfafa"></script>
+<script src="static/filter.js?v=a5ac9198"></script>
 <script>(function(){
   /* Newsletter box: tell Google Analytics when it shows up and when someone clicks it. */
   var boxes=document.querySelectorAll('.subscribe'); if(!boxes.length) return;
@@ -310,5 +310,18 @@
   }
   boxes.forEach(function(b){b.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){send('subscribe_click',b)})})});
 })();</script>
+<a href="#" class="to-top" id="to-top" aria-label="Volver arriba" title="Volver arriba">&uarr;</a>
+<script>
+(function () {
+  var b = document.getElementById('to-top');
+  function check() { b.classList.toggle('show', window.scrollY > window.innerHeight * 1.2); }
+  window.addEventListener('scroll', check, { passive: true }); check();
+  b.addEventListener('click', function (e) {
+    e.preventDefault();
+    var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: still ? 'auto' : 'smooth' });
+  });
+})();
+</script>
 </body>
 </html>

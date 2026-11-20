@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../static/style.css?v=2cebfafa">
+<link rel="stylesheet" href="../static/style.css?v=a5ac9198">
 <link rel="alternate" type="application/rss+xml" title="Cartas a Inversores · Ezra's Notes" href="../feed.xml">
 <meta property="og:title" content="Enrique Bestilleiro, Only Compounders · Ezra's Notes">
 <meta property="og:description" content="Enrique explica con números por qué cada empresa puede componer durante décadas, y mezcla cartas escritas con vídeos.">
@@ -42,7 +42,7 @@
   <div class="topline">
     <a href="https://www.ezrasnotes.com">Ezra's Notes</a>
     <span class="topright">
-      <span class="checked">Revisado el 17 de noviembre de 2026</span>
+      <span class="checked">Revisado el 20 de noviembre de 2026</span>
       <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Cambiar entre modo claro y oscuro">Oscuro</button>
     </span>
   </div>
@@ -83,6 +83,8 @@
   <section class="year">
     <h2>2026</h2>
     <ul class="year-list">
+    
+      <li><a href="https://onlycompounders.com/comentario-3t-2026/" target="_blank" rel="noopener">3T<span class="sr"> 2026</span><span class="arrow"> &#8599;</span></a></li>
     
       <li><a href="https://onlycompounders.com/carta-semestral-2026/" target="_blank" rel="noopener">1S<span class="sr"> 2026</span><span class="arrow"> &#8599;</span></a></li>
     
@@ -191,5 +193,18 @@
   }
   boxes.forEach(function(b){b.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){send('subscribe_click',b)})})});
 })();</script>
+<a href="#" class="to-top" id="to-top" aria-label="Volver arriba" title="Volver arriba">&uarr;</a>
+<script>
+(function () {
+  var b = document.getElementById('to-top');
+  function check() { b.classList.toggle('show', window.scrollY > window.innerHeight * 1.2); }
+  window.addEventListener('scroll', check, { passive: true }); check();
+  b.addEventListener('click', function (e) {
+    e.preventDefault();
+    var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: still ? 'auto' : 'smooth' });
+  });
+})();
+</script>
 </body>
 </html>

@@ -6,7 +6,14 @@
   <atom:link href="https://cartas.ezrasnotes.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Cartas nuevas de los gestores value hispanos que lee Ezra, enlazadas a la fuente.</description>
   <language>es</language>
-  <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 00:00:00 +0000</lastBuildDate>
+  <item>
+    <title>Enrique Bestilleiro (Only Compounders): Carta del 3T 2026</title>
+    <link>https://onlycompounders.com/comentario-3t-2026/</link>
+    <guid isPermaLink="false">https://onlycompounders.com/comentario-3t-2026/</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description>Enrique explica con números por qué cada empresa puede componer durante décadas, y mezcla cartas escritas con vídeos. Más de Enrique Bestilleiro: https://cartas.ezrasnotes.com/m/only-compounders.html</description>
+  </item>
   <item>
     <title>Equipo de inversión (Bestinver): Carta del 3T 2026</title>
     <link>https://indd.adobe.com/view/720032c8-f966-4eb9-b953-b03ab467c520</link>
@@ -139,13 +146,6 @@
     <guid isPermaLink="false">https://salmonmundi.com/wp-content/uploads/2026/07/Carta-Segundo-Trimestre-2026.pdf</guid>
     <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
     <description>Guillermo y Marta explican con calma cada posición y lo que ven en el negocio, en cartas cortas y fáciles de leer. Más de Guillermo Nieto y Marta Escribano: https://cartas.ezrasnotes.com/m/salmon-mundi.html</description>
-  </item>
-  <item>
-    <title>Pablo González (Abaco Capital): Carta del 2T 2026</title>
-    <link>https://www.abaco-capital.com/carta-inversores-julio-2026/</link>
-    <guid isPermaLink="false">https://www.abaco-capital.com/carta-inversores-julio-2026/</guid>
-    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-    <description>Pablo escribe sobre empresas que casi nadie sigue en España y Portugal, con el detalle de alguien que las visita. Más de Pablo González: https://cartas.ezrasnotes.com/m/abaco.html</description>
   </item>
 </channel>
 </rss>

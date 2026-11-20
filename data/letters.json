@@ -4005,6 +4005,19 @@
  ],
  "only-compounders": [
   {
+   "url": "https://onlycompounders.com/comentario-3t-2026/",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "3T 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-20",
+   "source": "auto",
+   "backfill": false
+  },
+  {
    "url": "https://onlycompounders.com/carta-semestral-2026/",
    "period": {
     "year": 2026,
