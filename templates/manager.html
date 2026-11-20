@@ -34,6 +34,7 @@
     </ul>
   </section>
   {% endfor %}
+  <p class="report">¿Algún enlace roto o falta una carta? <a class="mail-report" data-u="letters" data-d="ezrasnotes.com" data-s="Aviso sobre las cartas de {{ m.name }}" href="{{ newsletter_url }}">Avísame</a> y lo arreglo.</p>
 {% endif %}
 
 {% set share_text = "¿Conoces a alguien que debería leer a " ~ m.name ~ "? Mándale esta página." %}
