@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-20T22:30:54+00:00",
+ "last_run": "2026-11-20T22:45:40+00:00",
  "managers": {
   "cobas": {
    "status": "ok",
@@ -87,8 +87,8 @@
    "new": 0
   },
   "magallanes": {
-   "status": "error",
-   "error": "HTTPSConnectionPool(host='magallanesvalue.com', port=443): Read timed out. (read timeout=30)",
+   "status": "ok",
+   "found_on_page": 5,
    "new": 0
   },
   "truevalue": {
