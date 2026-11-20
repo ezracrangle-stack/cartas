@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="static/style.css?v=a5ac9198">
+<link rel="stylesheet" href="static/style.css?v=e5638acf">
 <link rel="alternate" type="application/rss+xml" title="Cartas a Inversores · Ezra's Notes" href="feed.xml">
 <meta property="og:title" content="Cartas a Inversores · Ezra's Notes">
 <meta property="og:description" content="Las cartas de los gestores value hispanos, reunidas en un solo lugar. Gratis, sin registro y enlazadas a la web de cada gestora. Reviso cada semana si hay nuevas.">
@@ -72,7 +72,7 @@
   
     <li>
       <span class="period">3T 2026</span>
-      <span class="who"><a href="m/only-compounders.html">Enrique Bestilleiro</a><span class="firm">Only Compounders</span></span>
+      <span class="who"><a href="m/only-compounders.html">Enrique Bestilleiro</a><span class="new-badge" data-seen="2026-11-20" hidden>Nuevo</span><span class="firm">Only Compounders</span></span>
       <a class="read" href="https://onlycompounders.com/comentario-3t-2026/" target="_blank" rel="noopener">Leer<span class="sr"> Carta del 3T 2026 de Enrique Bestilleiro</span> &#8599;</a>
     </li>
   
@@ -102,7 +102,7 @@
   
     <li>
       <span class="period">3T 2026</span>
-      <span class="who"><a href="m/bestinver.html">Equipo de inversión</a><span class="firm">Bestinver</span></span>
+      <span class="who"><a href="m/bestinver.html">Equipo de inversión</a><span class="new-badge" data-seen="2026-11-15" hidden>Nuevo</span><span class="firm">Bestinver</span></span>
       <a class="read" href="https://indd.adobe.com/view/720032c8-f966-4eb9-b953-b03ab467c520" target="_blank" rel="noopener">Leer<span class="sr"> Carta del 3T 2026 de Equipo de inversión</span> &#8599;</a>
     </li>
   
@@ -266,13 +266,18 @@
     <a href="https://substack.com/@ezracrangle">Substack @ezracrangle</a>
     <a href="https://x.com/ezracrangle">X @ezracrangle</a>
     <a href="https://www.linkedin.com/in/ezracrangle/">LinkedIn</a>
-    <a href="https://letters.ezrasnotes.com/">Investor Letters (en inglés)</a>
-    <a href="https://gd.ezrasnotes.com/">The G&amp;D Index</a>
     <a href="feed.xml">RSS</a>
     <a href="companies.html">Empresas</a>
     <a href="search.html">Buscar</a>
     <a href="about.html">Acerca de</a>
   </p>
+  <nav class="footer-network" aria-label="Sitios de Ezra's Notes"><span class="fn-label">Sitios de Ezra's Notes</span>
+    <a href="https://letters.ezrasnotes.com/">Investor Letters</a>
+    <span aria-current="page">Cartas a Inversores</span>
+    <a href="https://gd.ezrasnotes.com/">The G&amp;D Index</a>
+    <a href="https://holdings.ezrasnotes.com/">Investor Holdings</a>
+    <a href="https://tools.ezrasnotes.com/">Tools</a>
+  </nav>
   <p class="rights">Cada carta pertenece a su autor y a su gestora. Los enlaces llevan a la web de cada gestora. Si una carta ya no está ahí, el enlace va a una copia pública y lo indica. Nada de lo que hay aquí es una recomendación de inversión.</p>
 </footer>
 <script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
@@ -302,5 +307,6 @@
   });
 })();
 </script>
+<script>(function(){var now=Date.now();document.querySelectorAll('.new-badge[data-seen]').forEach(function(s){var t=Date.parse(s.getAttribute('data-seen')+'T00:00:00Z');if(now-t<14*864e5)s.hidden=false;});})();</script>
 </body>
 </html>
